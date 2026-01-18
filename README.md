@@ -2,7 +2,7 @@
 
 # Izgubljeno & Najdeno Kampus - KampusNajde
 
-Aplikacija za hiter "matching" izgubljenih in najdenih predmetov v študentskih kampusih univerz.
+Spletna Aplikacija za hiter "matching" izgubljenih in najdenih predmetov v študentskih kampusih univerz oz. površinah šol.
 
 ## Problem
 
