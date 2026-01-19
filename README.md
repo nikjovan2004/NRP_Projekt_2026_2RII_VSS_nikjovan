@@ -1,70 +1,71 @@
-# NRP_Projekt_2026_2RII_VSS_nikjovan
+# Vaja 1: Ideja IT produkta in opredelitev problema
 
-# Izgubljeno & Najdeno Kampus - KampusNajde
+## 1. Delovni naslov produkta
 
-Spletna Aplikacija za hiter "matching" izgubljenih in najdenih predmetov v študentskih kampusih univerz oz. površinah šol.
+**Delovni naslov:** Izgubljeno & Najdeno Kampus  
+(kratko: KampusNajde)
 
-## Problem
+---
 
-Študenti in osebje univerze pogosto izgubijo predmete (ključe, študentske izkaznice, prenosnike, dežnike, knjige) na kampusu, a ni centraliziranega in učinkovitega sistema za ujemanje izgubljenih in najdenih predmetov. Študenti se trenutno zanašajo na:
-- Facebook in Discord skupin (razpršene informacije, težko iskati)
-- Fizične "lost & found" točke (omejene ure, slaba vidnost)
-- E-mailske verižice (počasno, neindeksirano)
-- Priporočila iz ust v usta
+## 2. Opis problema
 
-Posledica:
-- Izgubljeni predmeti se redko nahajajo
-- Podvojeni oglasi in iskanja
-- Izguba časa pri brskanju skozi neurejene kanale
-- Razočaranje in stres
+Na univerzitetnih kampusih v Sloveniji študenti in zaposleni pogosto izgubljajo različne predmete (ključe, študentske izkaznice, denarnice, prenosnike, knjige, oblačila), vendar ne obstaja enoten, pregleden in hiter sistem za povezovanje izgubljenih in najdenih predmetov. Informacije so razpršene med fizičnimi »lost & found« mesti (vratarnice, referati), Facebook skupinami, e‑pošto in ustnim izročilom, kar otežuje iskanje in zmanjšuje verjetnost, da se predmet dejansko vrne lastniku. [web:65][web:72]
 
-## Rešitev
+Problem zadeva predvsem študente in osebje večjih univerz (npr. Univerza v Ljubljani z več deset tisoč študenti in zaposlenimi), kjer je promet ljudi velik, prostori so razpršeni po mestu, hkratno pa ni standardiziranega digitalnega sistema za upravljanje z izgubljenimi/najdenimi predmeti. [web:93][web:96]
 
-**Izgubljeno & Najdeno Kampus** je spletna aplikacija, ki centralizira izgubljene in najdene predmete znotraj univerzitetnega kampusa oz. na splošno na območjih šolskih institucij. Uporabniki lahko:
+Problem je pomemben, ker izguba predmetov povzroča:
+- finančno škodo (ponovne izdaje kartic, ključev, dokumentov, naprav),
+- časovno izgubo (iskanje po različnih kanalih, obiski več lokacij),
+- stres in občutek nesigurnosti (zlasti pri dokumentih, ključih in elektronskih napravah).
 
-1. **Naročijo Najdene Predmete**
-   - Naložijo foto, opišejo predmet, izberejo kategorijo (ključi, dokumenti, elektronika, oblačila, itd.)
-   - Označijo lokacijo (stavba, nadstropje, natančno prostor če je mogoče)
-   - Čas se zabeleži avtomatsko
+---
 
-2. **Prijavijo Izgubljene Predmete**
-   - Opišejo kaj so izgubili
-   - Označijo približni čas in lokacijo
-   - Izberejo kategorijo in nujnost
+## 3. Ciljni uporabnik
 
-3. **Pametni Sistem Ujemanja** (Unikatna Funkcionalnost - spodaj)
-   - Aplikacija avtomatsko predlaga ujemanja, kadar imajo izgubljeni in najdeni predmeti visoko podobnost
-   - Prikaže odstotek verjetnosti ujemanja
-   - Obvesti uporabnike o potencialnih ujemanji
+Tipičen uporabnik je študent ali član osebja na slovenski univerzi (npr. UL, UM, UP), ki se vsakodnevno giblje med predavalnicami, knjižnicami, menzami, študentskimi domovi in javnim prevozom.
 
-4. **Brskanje & Iskanje**
-   - Filtriraj po kategoriji, stavbi, časovnem razponu
-   - Išči po ključnih besedah (npr. "rdeči denarnica", "MacBook")
-   - Poglej najnovejše objave
+Deluje v okolju:
+- z veliko premikanja med različnimi lokacijami (razpršene fakultete po mestu),
+- z visoko uporabo osebne opreme (prenosniki, telefoni, kartice, ključi),
+- kjer komunikacija poteka prek različnih kanalov (Facebook skupine, e‑pošta, ustno, fizični pulti).
 
-5. **Neposredno Sporočanje**
-   - Sporočaj se z iskačem/izgubljačem direktno prek aplikacije
-   - Ni potrebe da deljenje telefonskih številk javno
+V praksi se sooča z naslednjimi težavami:
+- ko nekaj izgubi, ne ve, kje naj začne iskati (Facebook, vratar, referat, policija, spletne strani),
+- nima enega centralnega mesta, kjer bi lahko hitro preveril, ali je bil njegov predmet najden,
+- tudi ko najde predmet, nima enostavnega načina, da bi ga povezal s pravo osebo, razen da objavi sliko v neki skupini in upa na odziv.
 
-6. **QR Kode na Fizičnih Lokacijah**
-   - Tiskljive QR kode za knjižnico, glavno halo, domove študentov
-   - Hiter dostop do aplikacije s fizičnih oglasnih tabel
+---
 
-## Unikatna Funkcionalnost: Pametni Ujemač Bližine
+## 4. Predlagana rešitev (osnovna ideja)
 
-**"Inteligentni Predlagalnik Ujemanj"** - Za razliko od osnovnih lost & found platform, aplikacija avtomatsko predlaga ujemanja na podlagi:
+Predlagana rešitev je spletna aplikacija **Izgubljeno & Najdeno Kampus**, ki deluje kot centraliziran, kampusu prilagojen sistem za prijavo izgubljenih in objavo najdenih predmetov.
 
-- **Časovna bližina**: Predmet najden ob 14:45, izgubljen ob 14:30? Visoka verjetnost ujemanja
-- **Prostorska bližina**: Najden v stavbi A nadstropje 2, izgubljen v stavbi A nadstropje 1? Verjetno isti predmet
-- **Podobnost kategorije in opisa**: Uporablja enostavno ujemanje ključnih besed (npr. "modri nahrbtnik" vs "mornariško modra torba")
-- **Ocenjevanje zanesljivosti**: Prikaže verjetnost ujemanja (70%, 85%, 95%), da uporabniki vedo kako zanesljiv je predlog
+Osnovne funkcionalnosti:
+- uporabnik lahko prijavi izgubljen predmet (opis, kategorija, lokacija, čas, opcijsko slika),
+- uporabnik lahko objavi najden predmet (slika, opis, kategorija, lokacija, čas),
+- sistem omogoča brskanje in filtriranje po kategoriji, lokaciji in datumu,
+- vgrajen je pametni sistem ujemanja, ki predlaga možna ujemanja med izgubljenimi in najdenimi predmeti na podlagi časa, lokacije, kategorije in opisa,
+- uporabnika obvesti, ko se pojavi visoko verjetno ujemanje.
 
-Uporabniki dobijo **obvestila**, ko je zaznano potencialno ujemanje, kar drastično pospeši vrnitev predmeta.
+Dodatna praktična funkcionalnost:
+- na oglasnih tablah, v knjižnicah, menzah in študentskih domovih so nameščene **QR kode**, ki jih uporabniki skenirajo s telefonom in so preusmerjeni neposredno na stran za prijavo izgubljenega ali najdenega predmeta za to lokacijo (npr. “najdeno v FRI menzi”). To poenostavi in pohitri vnos ter spodbuja ljudi, da najdene predmete dejansko prijavijo.
 
-Primer:
-> "Tvoj prenosnik (izgubljen danes 13:00, stavba C) ima 91% ujemanje z najdenim predmetom (najden 14:15, stavba C, elektronika)"
+Rešitev je boljša od obstoječih alternativ, ker:
+- je **specializirana za univerzitetni kampus** (lokacije, stavbe, tipične kategorije predmetov),
+- z uporabo **pametnega ujemanja** aktivno pomaga najti pare izgubljeno–najdeno, namesto da bi bil uporabnik prepuščen ročnemu iskanju,
+- združi funkcionalnost, ki je trenutno razpršena med več kanalov (Facebook, fizični pulti, e‑pošta), v en sam pregleden sistem,
+- z uporabo **QR kod** poveže fizične lokacije na kampusu z digitalno aplikacijo in zniža “frikcijo” pri prijavi najdenih predmetov.
 
-## Ciljna Skupina
+---
 
-- **Primarna**: Študenti in osebje na kampusih oz. na šolskih območjih
-- **Primer uporabe**: Kdorkoli, ki pogosto izgubi ali najde stvari na teh lokacijah
+## 5. Primer uporabe (kratek scenarij)
+
+Ana, študentka 2. letnika na Univerzi v Ljubljani, po predavanju na Fakulteti za računalništvo in informatiko ugotovi, da je izgubila šop ključev (ključi od stanovanja in študentskega doma). Ne ve, ali jih je pozabila v predavalnici, računalniški učilnici ali v menzi.
+
+Namesto, da bi pisala v več Facebook skupin, klicala referat in hodila od vratarnice do vratarnice, odpre spletno aplikacijo **Izgubljeno & Najdeno Kampus**, se prijavi in vnese prijavo izgubljenega predmeta: “šop srebrnih ključev, modri obesek, izgubljeno danes med 10:00 in 12:00, FRI / menza”.
+
+Eden izmed študentov je istega dne v menzi našel šop ključev z modrim obeskom. Ko odhaja iz menze, na oglasni tabli opazi QR kodo “Izgubljeno & Najdeno – FRI menza”, jo skenira s telefonom, kar ga odpelje neposredno na obrazec za prijavo najdenega predmeta za to lokacijo. Doda sliko, izbere kategorijo “ključi” in odda.
+
+Sistem na podlagi časovne in prostorske bližine ter opisa sam izračuna visoko verjetnost ujemanja in Ani pošlje obvestilo, da obstaja 90 % ujemanje z najdenim predmetom. Ana v aplikaciji odpre predlagano ujemanje, skozi vgrajeno sporočanje stopi v stik s študentom, ki je ključe našel, in se dogovorita za prevzem še isti dan.
+
+---
