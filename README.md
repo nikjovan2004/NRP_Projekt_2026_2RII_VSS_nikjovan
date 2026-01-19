@@ -1,93 +1,265 @@
-# Vaja 1: Ideja IT produkta in opredelitev problema
+# SecondHandMatcher
+
+---
 
 ## 1. Delovni naslov produkta
 
-**Delovni naslov:** Izgubljeno & Najdeno Kampus  
-(kratko: KampusNajde)
+**SecondHandMatcher** – AI platforma za pametno iskanje in prodajo rabljenih stvari
 
 ---
 
 ## 2. Opis problema
 
-Na univerzitetnih kampusih v Sloveniji študenti in zaposleni pogosto izgubljajo različne predmete (ključe, študentske izkaznice, denarnice, prenosnike, knjige, oblačila), vendar ne obstaja enoten, pregleden in hiter sistem za povezovanje izgubljenih in najdenih predmetov. Informacije so razpršene med fizičnimi »lost & found« mesti (vratarnice, referati), Facebook skupinami, e‑pošto in ustnim izročilom, kar otežuje iskanje in zmanjšuje verjetnost, da se predmet dejansko vrne lastniku. [web:65][web:72]
+### Kaj je problem?
 
-Problem zadeva predvsem študente in osebje večjih univerz (npr. Univerza v Ljubljani z več deset tisoč študenti in zaposlenimi), kjer je promet ljudi velik, prostori so razpršeni po mestu, hkratno pa ni standardiziranega digitalnega sistema za upravljanje z izgubljenimi/najdenimi predmeti. [web:93][web:96]
+Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržiščem, zaupanjem in časom**:
 
-Problem je pomemben, ker izguba predmetov povzroča:
-- finančno škodo (ponovne izdaje kartic, ključev, dokumentov, naprav),
-- časovno izgubo (iskanje po različnih kanalih, obiski več lokacij),
-- stres in občutek nesigurnosti (zlasti pri dokumentih, ključih in elektronskih napravah).
+- **Raztreseno iskanje:** Ponudbe so na Bolhi, Vinted-u, Facebook Marketplace-u, Oglasih.si – uporabnik mora na vsako platformo posebej
+- **Ogromna količina oglasov:** Na Bolha.com je >3 milijone oglasov letno, vendar samo 15-20% res proda – ostali padejo v pozabo
+- **Varnost:** Goljufije, ponarejenost izdelkov, nesmiselna komunikacija – ni preverjanja avtentičnosti
+- **Pasivno iskanje:** Uporabniki ročno pregledujeta oglase (povprečno 1-2 uri dnevno), ker ni proaktivnih obvestil
+
+### Koga problem zadeva?
+
+- **Primarni:** Posamezniki (20-50 let), študenti, starši – iščejo rabljene stvari s privarčkom
+- **Sekundarni:** Prodajalci rabljenih stvari – oglasi ne dosegajo prave publike
+- **Terciarni:** Ljudje, ki se zanimajo za trajnostno porabo in recikliranje
+
+### Zakaj je problem pomemben?
+
+- Slovenski trg rabljenih stvari je vreden **€200-300 milijonov letno** – toda raztreseno in neorganizirano
+- Uporabniki **izgubijo 2-3 ure tedenske** pri iskanju brez rezultata
+- **400.000+ aktivnih uporabnikov mesečno** (samo Bolha) – potencial je ogromen
+- Okoljska dimenzija: rabljeni proizvodi zmanjšajo odpadke, a so težko dostopni
 
 ---
 
 ## 3. Ciljni uporabnik
 
-Tipičen uporabnik je študent ali član osebja na slovenski univerzi (npr. UL, UM, UP), ki se vsakodnevno giblje med predavalnicami, knjižnicami, menzami, študentskimi domovi in javnim prevozom.
+### Kdo je tipičen uporabnik?
 
-Deluje v okolju:
-- z veliko premikanja med različnimi lokacijami (razpršene fakultete po mestu),
-- z visoko uporabo osebne opreme (prenosniki, telefoni, kartice, ključi),
-- kjer komunikacija poteka prek različnih kanalov (Facebook skupine, e‑pošta, ustno, fizični pulti).
+**Persona: Anja, 32 let, urednica iz Velenja**
 
-V praksi se sooča z naslednjimi težavami:
-- ko nekaj izgubi, ne ve, kje naj začne iskati (Facebook, vratar, referat, policija, spletne strani),
-- nima enega centralnega mesta, kjer bi lahko hitro preveril, ali je bil njegov predmet najden,
-- tudi ko najde predmet, nima enostavnega načina, da bi ga povezal s pravo osebo, razen da objavi sliko v neki skupini in upa na odziv.
+- Starša, ki iščeta rabljene stvari za otroke (obleke, igrače, pohištvo)
+- Ima malo časa za brskanje – potrebuje hitro in pametno iskanje
+- Išče specifične stvari in varčuje – je zaupljiva, a boji se goljufij
+
+### V kakšnem okolju deluje?
+
+- Ima pametni telefon in Viber/WhatsApp
+- Nakupuje rabljene stvari 2-3x mesečno
+- Pogosto sprašuje prijatelje za »trike« in »najdbe«
+
+### Katere težave ima v praksi?
+
+- *»Kako vem, da je iskreno?«* – boji se ponarejenosti in goljufij
+- *»Kje je kaj novega?«* – mora vsak dan sami iskati nove oglase
+- *»To se mora prodati danes!«* – oglasi hitro postanejo »mrtvi«
+- *»Kaj cenikam?«* – ni vedenja o realnih cenah
+- *»Ali je do mene dovolj blizu?«* – ne ve, kako se dogovoriti
 
 ---
 
 ## 4. Predlagana rešitev (osnovna ideja)
 
-Predlagana rešitev je spletna aplikacija **Izgubljeno & Najdeno Kampus**, ki deluje kot centraliziran, kampusu prilagojen sistem za prijavo izgubljenih in objavo najdenih predmetov.
+### Kako tvoj IT produkt rešuje opisan problem?
 
-Osnovne funkcionalnosti:
-- uporabnik lahko prijavi izgubljen predmet (opis, kategorija, lokacija, čas, opcijsko slika),
-- uporabnik lahko objavi najden predmet (slika, opis, kategorija, lokacija, čas),
-- sistem omogoča brskanje in filtriranje po kategoriji, lokaciji in datumu,
-- vgrajen je pametni sistem ujemanja, ki predlaga možna ujemanja med izgubljenimi in najdenimi predmeti na podlagi časa, lokacije, kategorije in opisa,
-- uporabnika obvesti, ko se pojavi visoko verjetno ujemanje.
+**SecondHandMatcher** je **spletna in mobilna aplikacija**, ki kombinira:
 
-Dodatna praktična funkcionalnost:
-- na oglasnih tablah, v knjižnicah, menzah in študentskih domovih so nameščene **QR kode**, ki jih uporabniki skenirajo s telefonom in so preusmerjeni neposredno na stran za prijavo izgubljenega ali najdenega predmeta za to lokacijo (npr. “najdeno v FRI menzi”). To poenostavi in pohitri vnos ter spodbuja ljudi, da najdene predmete dejansko prijavijo.
+1. **Agregacija vseh platform** – Bolha, Oglasi.si, Facebook, Vinted, Depop na enem mestu
+2. **AI proaktivna iskanja** – Uporabnik postavi kriterije (»kolo do €100 v Velenju«) in avtomatski prejme obvestila
+3. **Preverjanje avtentičnosti** – AI analizira slike oglasov in opozarja na ponarejenost
+4. **Direktni in varni kontakt** – WhatsApp, obojestransko zaščiteno plačilo (escrow)
+5. **Pametna kategorija in prioritizacija** – Sistemska obvestila le za relevantne oglase
+6. **Garancija kupca** – Če je artikel ponarejeno ali loše, denar nazaj
 
-Rešitev je boljša od obstoječih alternativ, ker:
-- je **specializirana za univerzitetni kampus** (lokacije, stavbe, tipične kategorije predmetov),
-- z uporabo **pametnega ujemanja** aktivno pomaga najti pare izgubljeno–najdeno, namesto da bi bil uporabnik prepuščen ročnemu iskanju,
-- združi funkcionalnost, ki je trenutno razpršena med več kanalov (Facebook, fizični pulti, e‑pošta), v en sam pregleden sistem,
-- z uporabo **QR kod** poveže fizične lokacije na kampusu z digitalno aplikacijo in zniža “frikcijo” pri prijavi najdenih predmetov.
+**Glavna vrednost:** Zamenjava 2 uri ročnega iskanja na 5 minut avtomatiziranega obveščanja.
+
+### Zakaj je rešitev boljša od obstoječih alternativ?
+
+| **Značilnost** | **Bolha** | **Vinted** | **SecondHandMatcher** |
+|---|---|---|---|
+| Agregirani oglasi | ❌ Samo Bolha | ❌ Samo Vinted | ✅ VSE platforme |
+| Proaktivna iskanja | ❌ Ročno | ❌ Ročno | ✅ Avtomatski obvestila |
+| Preverjanje avtentičnosti | ❌ Ni | ⚠️ Osnovno | ✅ AI Computer Vision |
+| Direktni kontakt | ⚠️ Komentirani | ⚠️ Čat | ✅ WhatsApp + escrow |
+| Dostopnost | ❌ Ni | ❌ Ni | ✅ Glasovni asistent |
+
+**Unikatna prednost:** Meta-tržnica (prva platforma v regiji, ki agregira VSE) + AI avtomatizacija + garancija kupca.
 
 ---
 
 ## 5. Primer uporabe (kratek scenarij)
 
-Ana, študentka 2. letnika na Univerzi v Ljubljani, po predavanju na Fakulteti za računalništvo in informatiko ugotovi, da je izgubila šop ključev (ključi od stanovanja in študentskega doma). Ne ve, ali jih je pozabila v predavalnici, računalniški učilnici ali v menzi.
+### Realen primer: Marko, 28 let, študent
 
-Namesto, da bi pisala v več Facebook skupin, klicala referat in hodila od vratarnice do vratarnice, odpre spletno aplikacijo **Izgubljeno & Najdeno Kampus**, se prijavi in vnese prijavo izgubljenega predmeta: “šop srebrnih ključev, modri obesek, izgubljeno danes med 10:00 in 12:00, FRI / menza”.
+**Brez SecondHandMatcher:**
+- Vsak dan ročno pregleduje Bolho, Facebook, Vinted
+- Potrebuje ~30 minut dnevno
+- Čaka 2 tedna in gl oglasi imajo »preslabe« rezultate
 
-Eden izmed študentov je istega dne v menzi našel šop ključev z modrim obeskom. Ko odhaja iz menze, na oglasni tabli opazi QR kodo “Izgubljeno & Najdeno – FRI menza”, jo skenira s telefonom, kar ga odpelje neposredno na obrazec za prijavo najdenega predmeta za to lokacijo. Doda sliko, izbere kategorijo “ključi” in odda.
+**S SecondHandMatcher:**
 
-Sistem na podlagi časovne in prostorske bližine ter opisa sam izračuna visoko verjetnost ujemanja in Ani pošlje obvestilo, da obstaja 90 % ujemanje z najdenim predmetom. Ana v aplikaciji odpre predlagano ujemanje, skozi vgrajeno sporočanje stopi v stik s študentom, ki je ključe našel, in se dogovorita za prevzem še isti dan.
-
----
-
-## 6. Trg (konkurenca in alternative)
-
-- **Splošne platforme izgubljeno–najdeno**  
-  Obstaja spletna stran izgubljeno-najdeno.si, ki omogoča prijavo izgubljenih in najdenih predmetov ter iskanje po lokaciji, datumu in kategoriji, vendar ni vezana na posamezen kampus ali šolo, temveč deluje na ravni celotne države. [web:65]  
-- **Policijski register najdenih predmetov**  
-  Policija vodi javno dostopen seznam najdenih predmetov, ki jih najditelji oddajo policiji; ti se hranijo določeno obdobje, uporabnik pa mora ročno iskati po seznamu ali kontaktirati policijo. Sistem ni prilagojen študentom ali kampusom in je bolj formalen ter počasen. [web:72]  
-- **Ad‑hoc kanali na kampusih**  
-  Večina slovenskih fakultet in šol uporablja kombinacijo fizičnih “lost & found” mest (vratarnica, referat) ter Facebook skupin ali e‑pošte. Informacije so razpršene in ne omogočajo pametnega ujemanja niti centralnega pregleda.
-
-Glede na obstoječe stanje na slovenskem trgu:
-- **ni specializirane kampus rešitve** za slovenske univerze in šole,
-- obstoječe slovenske rešitve so **splošne** (niso vezane na kampus, nimajo modela stavb, nadstropij, fakultet),
-- globalne kampus platforme so namenjene tujim univerzam in niso integrirane v slovenski prostor.
-
-Predlagana rešitev **Izgubljeno & Najdeno Kampus** se pozicionira kot:
-- lokalno prilagojena kampus aplikacija (slovenski jezik, slovenske univerze, tipične lokacije),
-- z **pametnim ujemanjem po času, lokaciji in opisu** ter QR kodami na fizičnih lokacijah,
-- potencialna osnova za širitev na več kampusov v Sloveniji, kjer trenutno ni podobne namenske rešitve.
+1. **Postavka iskanja (20 sekund):** Marko reče: *»Išč rabljeno kolo do €120 v Velenju«*
+2. **AI čaka (avtomatika):** Sistem avtomatski pregleduje vse platforme
+3. **Obvestilo:** Marko prejme WhatsApp: *»Našli so 3 nova kolesa po tvojih kriterijih. Trek gorsko kolo – €115 – 5 km od tebe«*
+4. **Varni dogovor:** Marko klikne → AI preveri autentičnost kolesa → direktni dogovor z lastnikom → escrow plačilo
+5. **Rezultat:** V 5 minutah je našel kolo in se dogovoril varno – brez 2 ur ročnega iskanja
 
 ---
 
+## 6. Raziskava tržišča in konkurence
+
+### Stanje na slovenskem trgu
+
+**Obstoječe platforme:**
+
+| Platforma | Uporabniki (mesečno) | Jakost | Slabost |
+|---|---|---|---|
+| **Bolha.com** | 400.000+ | Največja baza | Ročno iskanje, brez garancije |
+| **Vinted** | 50.000+ | Garancija, glas | Samo obleke |
+| **Facebook Marketplace** | 300.000+ | Socialno | Brez varnosti |
+| **Oglasi.si** | 100.000+ | Specifično | Zastarelo |
+| **Depop** | 10.000 | Moda, socialno | Nišno |
+
+**Velika vrzel:** Ni nobene platforme, ki bi agregirala VSE oglase in imela AI avto-obveščanje + preverjanje avtentičnosti.
+
+### Tržna priložnost
+
+- **Slovenija:** 2,1 milijona prebivalcev
+- **Vrednost tržišča:** €200-300 milijonov letno (rabljene stvari)
+- **Penetracija:** Samo 20% potencialnega trga
+- **Analiza rasti:** EU trg rabljenih stvari raste 15-20% letno
+- **Potencial za SecondHandMatcher:** 10% tržnega deleža = €20-30M vrednosti transakcij letno
+
+### Konkurenčna analiza
+
+**Globalni primeri:**
+- **eBay** – agregacija, a zastarelo za rabljene stvari
+- **TaskRabbit/Thumbtack** – se ne fokusirata na rabljene stvari
+- **OLX (vzhodna Evropa)** – klasificirani oglasi, brez AI
+
+**Zaključek:** SecondHandMatcher bi bil **prvi AI-powered meta-marketplace za rabljene stvari v Evropi**.
+
+---
+
+## 7. Tehnološke rešitve in orodja
+
+### Tehnologije (brezplačne/študentske)
+
+**Frontend:**
+- **React.js** (brezplačno, open source) – spletna aplikacija
+- **React Native** ali **Flutter** (brezplačno) – mobilna aplikacija
+- **Tailwind CSS** (brezplačno) – dizajn
+
+**Backend:**
+- **Node.js + Express** ali **Python Flask** (brezplačno) – server logika
+- **Firebase** (Google – brezplačna verzija) – baza podatkov, avtentifikacija, hosting
+- **PostgreSQL** (brezplačno, open source) – struktuirana baza
+
+**AI & Machine Learning:**
+- **Google Gemini API** (€0,0001 za 1000 zahtevkov – zelo poceni) – analiza tekstov
+- **Google Cloud Vision API** (brezplačna kvota 1.000 slik/mesec) – analiza slik za avtentičnost
+- **Google Speech-to-Text** (brezplačna kvota) – glasovni vnos
+
+**Integracije:**
+- **Bolha.com / Oglasi.si / Facebook Graph API** – podatki oglasov
+- **Twilio** (brezplačna kvota SMS) – obvestila
+- **Stripe** (2,9% + €0,30 po transakciji) – sprejemanje plačil
+- **Firebase Realtime Database** (brezplačno) – real-time obvestila
+
+**Razvoj & Deployment:**
+- **GitHub** (brezplačno) – verzioniranje kode
+- **Google Cloud Free Tier** ali **Firebase** – hosting
+- **Docker** (brezplačno) – kontejnerizacija
+
+### Skupni stroški prvega leta
+
+- **Razvoj:** €0 (brezplačna orodja) + tvoj čas
+- **Hosting (Firebase):** €0-50/mesec
+- **API klici (Google):** €20-100/mesec pri >100k uporabnikov
+- **Plačila (Stripe):** 2,9% provizije (spremenljivo z volumnom)
+
+---
+
+## 8. Model monetizacije (kako služiti denar)
+
+### Freemium Model
+
+**Brezplačni plan:**
+- 5 aktivnih iskanj (»saved searches«) mesečno
+- Osnovni dostop do oglasov
+- Obvestila na email
+
+**Premium (€4,99/mesec):**
+- Neomejenih iskanj
+- Prioritetna obvestila
+- AI analiza slik (preverjanje avtentičnosti)
+- Brez oglasov
+- Direktna pomoč (chat)
+
+### Commission Model
+
+- **3-5% provizije od vsake transakcije** (ko je denar spremenjen)
+- Primer: Uporabnik kupi kolo za €110 → SecondHandMatcher dobi €3,30-5,50
+
+### Premium za Prodajalce
+
+- **€9,99/mesec** – Oglase naredi »izpostavljen« (bolj viden)
+- **€19,99/mesec** – Analitika (koliko klikov, koliko zainteresiranih)
+
+### B2B Partnerstva
+
+- **Integracija z OLX, Bolho, Vintedjo** – naročnina za podatke (€500-1000/mesec)
+- **Integracija s CRM za prodajnike** – stroški po uporabniku
+- **Korporativne licence** – za velike spletne prodajne centre
+
+### Napoved dohodka (prvo leto)
+
+**Konzervativna ocena:**
+- 5.000 aktivnih uporabnikov
+- 20% konverzija na premium (€5/mesec)
+- 10% transakcij z komisijo (€100 povprečna vrednost)
+- 100 prodajalcev s premium ogljsi (€10/mesec)
+
+**Prihodki:**
+- Premium uporabniki: 1.000 × €5 = €5.000/mesec
+- Komisije: 500 transakcij × €4 = €2.000/mesec
+- Premium prodajalci: 100 × €10 = €1.000/mesec
+- **Skupaj:** €8.000/mesec = **€96.000 letno**
+
+**Stroški:** ~€2.000/mesec (hosting, API, marketing)
+**Bruto dohodek (prvo leto):** ~€72.000
+
+---
+
+## 9. Naslednji koraki
+
+1. **MVP (mesec 1)** – Agregacija Bolhe + Oglasov.si + osnovni UI
+2. **Beta test (mesec 2-3)** – 100-200 testnih uporabnikov v Velenju
+3. **AI integracija (mesec 4)** – Dodaj Computer Vision za avtentičnost
+4. **Razširitev (mesec 5-6)** – Facebook, Vinted, Depop integracija
+5. **Mobile app (mesec 6)** – iOS in Android verzija
+6. **Marketing (mesec 7+)** – Nacionalna razširitev
+7. **Monetizacija** – Aktivacija premium planov in provizij
+
+---
+
+## Povzetek
+
+| **Aspekt** | **Opis** |
+|---|---|
+| **Naslov** | SecondHandMatcher |
+| **Problem** | Fragmentirano iskanje rabljenih stvari, izguba časa, goljufije |
+| **Rešitev** | AI agregacija vseh platform + avtomatska iskanja + preverjanje avtentičnosti |
+| **Target** | 2,1M prebivalcev SLO, €200-300M tržišče |
+| **Unikatnost** | Prva meta-tržnica s Computer Vision + garancijo |
+| **Prihodki** | Freemium (€5/mj) + komisije (3-5%) + premium prodajalci (€10/mj) |
+| **Tech** | React, Firebase, Google APIs (brezplačna orodja) |
+| **Break-even** | ~8 mesecev |
+
+---
+
+## Zaključek
+
+**SecondHandMatcher** rešuje realen problem na realnem tržišču s pametno kombinacijo AI, agregacije in garancije. V času, ko rastejo trend trajnostne porabe in recikliranja, je to idealna rešitev za slovenski (in evropski) trg.
