@@ -62,7 +62,7 @@ Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržišč
 
 ### Kako tvoj IT produkt rešuje opisan problem?
 
-**PametnoNajdiRabljeno** je **spletna in mobilna aplikacija**, ki kombinira:
+**PametnoNajdiRabljeno** je **spletna aplikacija**, ki kombinira:
 
 1. **Agregacija vseh platform** – Bolha, Oglasi.si, Facebook, Vinted, Depop na enem mestu
 2. **AI proaktivna iskanja** – Uporabnik postavi kriterije (»kolo do €100 v Velenju«) in avtomatski prejme obvestila
@@ -183,20 +183,21 @@ Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržišč
 
 ## 7. Tehnološke rešitve in orodja
 
-### 🎯 IZBRANA KOMBINACIJA (Najboljše za tvoj projekt)
+### 🎯 IZBRANA KOMBINACIJA (Spletna aplikacija + Perplexity AI)
 
-#### **Frontend (Spletna aplikacija):**
+#### **Frontend (Spletna aplikacija – Desktop & Mobile Web):**
 - **Next.js** (brezplačno) – Kombinira React + server-side rendering (SSR), idealno za SEO in hitrost
   - Lahka za učenje, odličnih učnih virov
   - Vgrajena optimizacija slik in API route-ov
   - Idealno za MVP (minimum viable product)
+  - **Responsive design** – deluje na desktop, tabletu in mobilnem telefonu
+  - Ena koda za vse naprave (ni potrebna posebna mobilna aplikacija)
 
-#### **Mobilna aplikacija:**
-- **React Native + Expo** (brezplačno) – Ena koda, iOS + Android
-  - Hitrejša razvoja kot Flutter za začetnike
-  - Odličen Expo CLI za testiranje brez Android/iOS setupa
-  - Manjši learning curve kot Flutter
-  - Idealno: najprej web (Next.js), nato mobile (React Native)
+#### **CSS Framework za responsive design:**
+- **Tailwind CSS** (brezplačno) – Hitro brez-stiliziranje
+  - Mobile-first pristop
+  - Samodejno se prilagaja različnim velikostim zaslona
+  - Že vgrajen v Next.js
 
 #### **Backend (Server logika):**
 - **Node.js + Express** (brezplačno) – Ista koda kot frontend (JavaScript)
@@ -211,14 +212,30 @@ Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržišč
   - Avtomatske backupe
   - Brezplačna kvota zadošča za >100k uporabnikov
 
-#### **AI & Computer Vision:**
-- **Google Cloud Vision API** (brezplačna kvota 1.000 slik/mesec) – Preverjanje avtentičnosti
-- **Google Gemini API** (€0,0001 za 1000 zahtevkov) – Analiza tekstov oglasov
-- **Web Speech API** (vgrajena v browser) – Glasovni vnos (BREZPLAČNO, ne rabis Twilia)
+#### **AI & Machine Learning:**
+- **Perplexity PRO API** (€0,01-0,05 per query) – **Analiza oglasov in povpraševanj**
+  - Razumevanje naravnega jezika (kaj uporabnik išče)
+  - Analiza tekstovnih opisov oglasov
+  - Detekcija sumljivih oglasov (anomalije v cenah, čudni opisi)
+  - Primerjava cen in trendov s spleta
+  - Avtomatska kategorizacija artiklov
+  
+- **Google Cloud Vision API** (brezplačna kvota 1.000 slik/mesec) – **Analiza slik oglasov**
+  - Preverjanje avtentičnosti slik
+  - Detekcija ponarejenosti
+  - OCR (branje teksta iz slik)
+  
+- **Web Speech API** (vgrajena v browser) – Glasovni vnos (BREZPLAČNO, deluje v Chrome, Firefox, Safari)
+
+#### **Web Scraping (Podatki iz platform):**
+- **Puppeteer** (brezplačno) – Avtomatiziran scraping
+  - Bolha.com – iskanje oglasov
+  - Oglasi.si – iskanje oglasov
+  - Facebook Graph API – Marketplace oglasi
+  - Avtomatski scraping 1-2x na dan
 
 #### **Integracije:**
-- **Web Scraping** (Puppeteer – brezplačno) – Zgloba iz Bolhe, Oglasov.si
-- **WhatsApp Business API** (€0,01-0,05 po sporočilu) – Obvestila
+- **WhatsApp Business API** (€0,01-0,05 po sporočilu) – Obvestila uporabnikom
 - **Stripe** (2,9% + €0,30 po transakciji) – Plačila (samo ko je res potrebno)
 
 #### **Hosting & Deployment:**
@@ -226,42 +243,39 @@ Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržišč
   - Avtomatske deploymente z GitHub
   - CDN po svetu
   - Vključeni serverless funkcije
-- **Firebase Hosting** (brezplačno) – Za backend + mobile app
+  - Dela odlično na mobilnih napravah
+- **Firebase Hosting** (brezplačno) – Za dodatne statične datoteke
 - **GitHub** (brezplačno) – Verzioniranje kode
 
-### 📊 Primerjava: Kompletna tehnološka stack
+### 📊 Primerjava: Kompletna tehnološka stack S PERPLEXITY
 
 | **Komponenta** | **Izbrana rešitev** | **Cena** | **Razlog** |
 |---|---|---|---|
-| Frontend | **Next.js** | €0 | SSR + SEO, hitro za MVP |
-| Mobile | **React Native + Expo** | €0 | Ena koda, iOS + Android |
+| Frontend | **Next.js + Tailwind CSS** | €0 | Responsive design, SSR, SEO, hitro |
 | Backend | **Node.js + Express** | €0 | JavaScript povsod = hitrejša razvoja |
 | Baza | **Firebase Realtime DB** | €0 (free tier) | Real-time, NoSQL, avtomatske backupe |
-| AI slike | **Google Vision API** | €0-20/mesec | 1.000 slik gratis, nato poceni |
-| AI tekst | **Google Gemini API** | €0-10/mesec | Zelo poceni, učinkovit |
+| AI analiza oglasov | **Perplexity PRO API** | €0,01-0,05/query | Razumevanje, detekcija goljufij, primerjava cen |
+| AI analiza slik | **Google Vision API** | €0-20/mesec | 1.000 slik gratis, nato poceni |
 | Glasovni vnos | **Web Speech API** | €0 | Vgrajena v browser |
-| WhatsApp | **WhatsApp Business API** | €0,01-0,05/msg | Samo kadar res pošiljaš |
+| Web Scraping | **Puppeteer** | €0 | Zgloba iz Bolhe, Oglasov.si, Facebook |
+| WhatsApp obvestila | **WhatsApp Business API** | €0,01-0,05/msg | Samo kadar res pošiljaš |
 | Plačila | **Stripe** | 2,9% + €0,30 | Plačaš samo ko denar teče |
-| Hosting | **Vercel + Firebase** | €0 | Free tiers dovolj za leto dni |
+| Hosting | **Vercel + Firebase** | €0 | Free tier dovolj za leto dni |
 
 ### ⚡ Skupni stroški prvega leta
 
 - **Razvoj:** €0 (vse brezplačno)
 - **Hosting:** €0 (Vercel + Firebase free tier)
-- **API klici:** €20-50/mesec (samo Google Vision/Gemini)
+- **Perplexity API klici:** €30-70/mesec (~100k oglasov/mesec × €0,0005 per analiza)
+- **Google Vision API:** €0-20/mesec (1.000 slik gratis, nato €1,50/1000 slik)
 - **WhatsApp obvestila:** €100-200/mesec (samo pri 10k+ sporočil)
 - **Stripe provizije:** 2,9% + €0,30 (samo pri transakcijah)
 
-**SKUPAJ:** €0-200/mesec za prvi mesec, nato €30-300/mesec ko se razširi
+**SKUPAJ:** €0-200/mesec za prvi mesec, nato €100-350/mesec ko se razširi
 
-### 🎓 Zakaj ta kombinacija za TEBE:
+### 🎯 KAKO PERPLEXITY REŠUJE GLAVNE IZZIVE:
 
-1. **Enostaven prehod** – JavaScript? Next.js + React Native sta lahka za učenje
-2. **Hiter MVP** – Prva verzija v 2-3 tednih (ne 2 meseca)
-3. **Fleksibilnost** – Enostavno dodajaj feature-je med razvojem
-4. **Brez stroškov** – Resnici hvala €0 prvega pol leta (razen Google API-jev)
-5. **Pravi skills** – Next.js in React Native ti bosta uporabna za VSAK drugi projekt
-6. **Izogneš se learningcurve** – Node.js backend te ne zaplete kot Python/Django
+#### **1. Razumevanje povpraševanja**
 
 ---
 
@@ -296,50 +310,6 @@ Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržišč
 - **Integracija z OLX, Bolho, Vintedjo** – naročnina za podatke (€500-1000/mesec)
 - **Integracija s CRM za prodajnike** – stroški po uporabniku
 - **Korporativne licence** – za velike spletne prodajne centre
-
-### Napoved dohodka (prvo leto)
-
-**Konzervativna ocena:**
-- 5.000 aktivnih uporabnikov
-- 20% konverzija na premium (€5/mesec)
-- 10% transakcij z komisijo (€100 povprečna vrednost)
-- 100 prodajalcev s premium ogljsi (€10/mesec)
-
-**Prihodki:**
-- Premium uporabniki: 1.000 × €5 = €5.000/mesec
-- Komisije: 500 transakcij × €4 = €2.000/mesec
-- Premium prodajalci: 100 × €10 = €1.000/mesec
-- **Skupaj:** €8.000/mesec = **€96.000 letno**
-
-**Stroški:** ~€2.000/mesec (hosting, API, marketing)
-**Bruto dohodek (prvo leto):** ~€72.000
-
----
-
-## 9. Naslednji koraki
-
-1. **MVP (mesec 1)** – Agregacija Bolhe + Oglasov.si + osnovni UI
-2. **Beta test (mesec 2-3)** – 100-200 testnih uporabnikov v Velenju
-3. **AI integracija (mesec 4)** – Dodaj Computer Vision za avtentičnost
-4. **Razširitev (mesec 5-6)** – Facebook, Vinted, Depop integracija
-5. **Mobile app (mesec 6)** – iOS in Android verzija
-6. **Marketing (mesec 7+)** – Nacionalna razširitev
-7. **Monetizacija** – Aktivacija premium planov in provizij
-
----
-
-## Povzetek
-
-| **Aspekt** | **Opis** |
-|---|---|
-| **Naslov** | PametnoNajdiRabljeno |
-| **Problem** | Fragmentirano iskanje rabljenih stvari, izguba časa, goljufije |
-| **Rešitev** | AI agregacija vseh platform + avtomatska iskanja + preverjanje avtentičnosti |
-| **Target** | 2,1M prebivalcev SLO, €200-300M tržišče |
-| **Unikatnost** | Prva meta-tržnica s Computer Vision + garancijo |
-| **Prihodki** | Freemium (€5/mj) + komisije (3-5%) + premium prodajalci (€10/mj) |
-| **Tech** | Next.js, React Native, Node.js, Firebase, Google APIs |
-| **Break-even** | ~8 mesecev |
 
 ---
 
