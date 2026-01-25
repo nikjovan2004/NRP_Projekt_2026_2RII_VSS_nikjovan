@@ -1,10 +1,10 @@
-# PametnoNajdiRabljeno
+# DomServices – AI Platforma za Popravila in Nego Doma
 
 ---
 
 ## 1. Delovni naslov produkta
 
-**PametnoNajdiRabljeno** – AI platforma za pametno iskanje in prodajo rabljenih stvari
+**DomServices** – AI platforma za pametno iskanje in rezervacijo storitev za popravila doma, čiščenje in nego trate z razpoložljivostjo v realnem času
 
 ---
 
@@ -12,49 +12,66 @@
 
 ### Kaj je problem?
 
-Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržiščem, zaupanjem in časom**:
+Uporabniki in ponudniki storitev se soočajo s **razdrobljenostjo tržišča, pomanjkanjem zaupanja in neučinkovitostjo**:
 
-- **Raztreseno iskanje:** Ponudbe so na Bolhi, Vinted-u, Facebook Marketplace-u, Oglasih.si – uporabnik mora na vsako platformo posebej
-- **Ogromna količina oglasov:** Na Bolha.com je >3 milijone oglasov letno, vendar samo 15-20% res proda – ostali padejo v pozabo
-- **Varnost:** Goljufije, ponarejenost izdelkov, nesmiselna komunikacija – ni preverjanja avtentičnosti
-- **Pasivno iskanje:** Uporabniki ročno pregledujeta oglase (povprečno 1-2 uri dnevno), ker ni proaktivnih obvestil
+- **Raztreseni ponudniki:** Popravilci, čistilci in vzdrževalci trate so raztreseni po Facebook skupinah, WhatsApp kontaktih, stari spletni strani – ni centralne platforme
+- **Brez realnega časa:** Uporabniki ne vedo, kdaj je ponudnik res dostopen – morajo klicati ali čakati na odgovore (povprečno 2-4 ure)
+- **Nezaupljive ocene:** Ni preverjenih ocen – te so na Facebooku, Bolhi ali neobstoječi spletni strani
+- **Ročni dogovori:** Plačilo se dogaja ročno, v gotovini ali preko bank transfer – ni zaščite kupca
+- **Ponudniki izgubijo čas:** Ponudniki ročno upravljajo termine, sporočila in denar – ni avtomatizacije
+- **Varnost:** Goljufije pri plačilu, lažne ocene, neverodostojne Reference – ni preverjanja identitete
 
 ### Koga problem zadeva?
 
-- **Primarni:** Posamezniki (20-50 let), študenti, starši – iščejo rabljene stvari s privarčkom
-- **Sekundarni:** Prodajalci rabljenih stvari – oglasi ne dosegajo prave publike
-- **Terciarni:** Ljudje, ki se zanimajo za trajnostno porabo in recikliranje
+- **Primarni:** Lastniki domov (25-65 let) – potrebujejo hitro, zaupljivo popravilo ali čiščenje
+- **Sekundarni:** Ponudniki storitev (kleparji, elektrikarji, čistilci, vrtnarji) – želijo več naročil in transparentno plačilo
+- **Terciarni:** Nepremičninski agenti in upravljavci večstanovanjskih hiš – potrebujejo zanesljive storitve za svoje klijente
 
 ### Zakaj je problem pomemben?
 
-- slovenski trg rabljenih stvari je vreden **€200-300 milijonov letno** – toda raztreseno in neorganizirano
-- Uporabniki **izgubijo 2-3 ure tedenske** pri iskanju brez rezultata
-- **400.000+ aktivnih uporabnikov mesečno** (samo Bolha) – potencial je ogromen
-- Okoljska dimenzija: rabljeni proizvodi zmanjšajo odpadke, a so težko dostopni
+- **slovenski trg:** Storitve za dom so vreden **€150-200 milijonov letno** – toda ročne in neorganizirane
+- **Čas:** Povprečni uporabnik **porabi 1-2 uri** za iskanje pravega ponudnika in dogovor
+- **Varnost:** Brez preverjanja – primeri goljufij, slabega dela, piratskih cen so pogosti
+- **Ponudniki:** 10.000+ samostojnih ponudnikov v Sloveniji – potrebujejo organizirano pot do strank
+- **Okoljska dimenzija:** Boljša ponovna uporaba znanja in virov (vzdrževanje + popravila zmanjšata odpadke)
 
 ---
 
 ## 3. Ciljni uporabnik
 
-### Kdo je tipičen uporabnik?
+### Kdo je tipičen uporabnik (Kupec storitve)?
 
-- Starša, ki iščeta rabljene stvari za otroke (obleke, igrače, pohištvo)
-- Ima malo časa za brskanje – potrebuje hitro in pametno iskanje
-- Išče specifične stvari in varčuje – je zaupljiva, a boji se goljufij
+- **Lastnik doma ali stanovanja** (30-55 let), ki potrebuje popravilo ali čiščenje
+- Ima malo časa in ne želi se dogovarjati – potrebuje hitro dostavo
+- Želi zaupljive ponudnike – preverene ocene in transparentno ceno
+- Plaća kartice ali prek mobilne aplikacije – ne želi gotovine
+
+### Kdo je tipičen ponudnik?
+
+- **Neodvisni obrtnik ali mali podjetnik** (elektrikar, kleparj, čistilka, vzdrževalec trate)
+- Ima 5-20 naročil mesečno in jih ročno upravlja
+- Želi več naročil in redne stranke – potrebuje centralno platformo
+- Ima osnovne IT spretnosti in pametni telefon s Chrome brskalnikom
 
 ### V kakšnem okolju deluje?
 
-- Ima pametni telefon ali računalnik z brskalnikom (Chrome, Edge, Firefox, Safari)
-- Nakupuje rabljene stvari 2-3x mesečno
-- Uporablja email in SMS, vajena je tudi obvestil brskalnika (npr. iz novičarskih strani)
+- **Uporabnik:** Ima pametni telefon ali računalnik – brska iz doma ali je na poti
+- **Ponudnik:** Ima pametni telefon – prejema obvestila o novih naročilih, upravljanja termine iz auta
+- Oba aktivna v Sloveniji (Velenje, Ljubljana, Maribor, Celje in okolica)
 
 ### Katere težave ima v praksi?
 
-- *»Kako vem, da je iskreno?«* – boji se ponarejenosti in goljufij
-- *»Kje je kaj novega?«* – mora vsak dan sama iskati nove oglase
-- *»To se mora prodati danes!«* – oglasi hitro postanejo »mrtvi«
-- *»Kaj cenikam?«* – ni vedenja o realnih cenah
-- *»Ali je do mene dovolj blizu?«* – ne ve, kako se dogovoriti
+**Uporabnik (Kupec):**
+- *»Koga naj kličem? Kdo je dostopen danes?«* – ni enega mesta za iskanje
+- *»Ali je res to kvaliteta?«* – boji se slabega dela in ponarejenega
+- *»Kaj je prava cena?«* – ni vedenja o tržnih cenah
+- *»Kako se zaščitim, če je delo slabo?«* – ni garancije
+
+**Ponudnik:**
+- *»Kako pridobim nove stranke?«* – Facebook oglasi ne delujejo
+- *»Kako upravljam termine?«* – noti, papir, SMS – kaos
+- *»Kako se izognem nepoštenim strankam?«* – brez preverke, včasih ga "nastavijo"
+- *»Kako prejemam denar varno?«* – gotovina je tvegana, bank transfer je počasno
 
 ---
 
@@ -62,50 +79,60 @@ Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržišč
 
 ### Kako tvoj IT produkt rešuje opisan problem?
 
-**PametnoNajdiRabljeno** je **spletna aplikacija**, ki kombinira:
+**DomServices** je **spletna aplikacija**, ki kombinira:
 
-1. **Agregacija vseh platform** – Bolha, Oglasi.si, Facebook, Vinted, Depop na enem mestu
-2. **AI proaktivna iskanja** – Uporabnik postavi kriterije (»kolo do €100 v Velenju«) in avtomatsko prejme obvestila
-3. **Preverjanje avtentičnosti** – AI analizira slike oglasov in opozarja na ponarejenost
-4. **Direktni in varni kontakt** – strukturirana komunikacija in zaščiteno plačilo (escrow)
-5. **Pametna kategorija in prioritizacija** – Sistemska obvestila le za relevantne oglase
-6. **Garancija kupca** – Če je artikel ponarejen ali škodljiv, denar nazaj
+1. **Centralna platforma za iskanje** – Vsi lokalni popravilci, čistilci in vzdrževalci trate na enem mestu
+2. **Razpoložljivost v realnem času** – Ponudnik nastavi svoj urnik, uporabnik vidi "Dostopen danes 14:00-16:00" in rezervira
+3. **AI filtriranje storitev** – Perplexity PRO analiza zahteve uporabnika ("popraviti moram pušilko v kuhinji") → avtomatski predlog najprimernejših ponudnikov
+4. **Preverjene ocene in reference** – Samo verificirani ponudniki, ocene morajo biti verificirane preko sistema
+5. **Integrirano plačilo (Stripe)** – Uporabnik plača kartice, denar se drži v escrow do odobritve, ponudnik prejme transfer
+6. **Direktna in varna komunikacija** – Notranji sistem za sporočila med uporabnikom in ponudnikom
+7. **Avtomatska obvestila** – Ponudnik prejme obvestilo o novem naročilu, uporabnik prejme potrditev rezervacije
 
-**Glavna vrednost:** Zamenjava 2 uri ročnega iskanja na 5 minut avtomatiziranega obveščanja.
+**Glavna vrednost za uporabnika:** Zamenjava 2 ur iskanja + dogovarjanja na 10 minut pametnega iskanja + rezervacije.
+
+**Glavna vrednost za ponudnika:** Avtomatska razporeditev naročil + transparentna plačila + redne stranke na enem mestu.
 
 ### Zakaj je rešitev boljša od obstoječih alternativ?
 
-| **Značilnost** | **Bolha** | **Vinted** | **PametnoNajdiRabljeno** |
-|---|---|---|---|
-| Agregirani oglasi | ❌ Samo Bolha | ❌ Samo Vinted | ✅ VSE platforme |
-| Proaktivna iskanja | ❌ Ročno | ❌ Ročno | ✅ Avtomatska obvestila |
-| Preverjanje avtentičnosti | ❌ Ni | ⚠️ Osnovno | ✅ AI Computer Vision + AI analiza teksta |
-| Direktni kontakt | ⚠️ Komentirani | ⚠️ Čat | ✅ Strukturiran dogovor + zaščiteno plačilo |
-| Dostopnost | ❌ Ni | ❌ Ni | ✅ Glasovni asistent + responsive web |
+| **Značilnost** | **Facebook/WhatsApp** | **Bolha Storitve** | **Google Ads** | **DomServices** |
+|---|---|---|---|---|
+| Centralna baza ponudnikov | ❌ Ni | ⚠️ Osnovno | ❌ Ni | ✅ Vsi lokalni |
+| Razpoložljivost v realnem času | ❌ Ročno | ❌ Ni | ❌ Ni | ✅ Live urnik |
+| AI filtriranje zahtev | ❌ Ni | ❌ Ni | ❌ Ni | ✅ Perplexity PRO |
+| Preverjene ocene | ⚠️ Ni sistema | ⚠️ Ni | ❌ Ni | ✅ Preverene + verified |
+| Integrirano plačilo | ❌ Gotovina | ❌ Ročno | ❌ Ni | ✅ Stripe escrow |
+| Direktna komunikacija | ⚠️ Brezvrstne | ⚠️ Brezvrstne | ❌ Ni | ✅ Strukturirana |
+| Automatska obvestila | ❌ Ni | ⚠️ Email | ❌ Ni | ✅ Push + email + SMS |
+| Dostopnost (mobilno + web) | ⚠️ Samo FB/WA | ⚠️ Osnovno | ❌ Ni | ✅ Responsive web app |
 
-**Unikatna prednost:** Meta-tržnica (prva platforma v regiji, ki agregira VSE) + AI avtomatizacija + preverjanje avtentičnosti + garancija kupca.
+**Unikatna prednost:** Prva slovensko-jezikovana platforma, ki kombinira **AI filtriranje + razpoložljivost v realnem času + integrirano plačilo + avto-dodeljevanje** – kot "Uber za domače storitve" brez commission overhead.
 
 ---
 
 ## 5. Primer uporabe (kratek scenarij)
 
-### Realen primer: Marko, 28 let, študent
+### Realen primer: Marija, 42 let, lastnica stanovanja
 
-**Brez PametnoNajdiRabljeno:**
-- Vsak dan ročno pregleduje Bolho, Facebook, Vinted
-- Potrebuje ~30 minut dnevno
-- Čaka 2 tedna in oglasi imajo »preslabe« rezultate
+**Brez DomServices:**
+- Pušilka v kuhinji pušča – potrebuje kleparja
+- Kliče 3-4 bekerjeve iz spisa prijateljev, nihče ni dostopen danes
+- Piše na Facebook skupino »Velenje - popravila« – čaka 4 ure na odgovore
+- Dogovor se zbije s SMS → plačilo v gotovini → ni računa
+- Skupni čas: **3 ure**
 
-**S PametnoNajdiRabljeno:**
+**S DomServices:**
 
-1. **Postavka iskanja (20 sekund):** Marko na strani vnese: *»Iščem rabljeno kolo do €120 v Velenju«* in potrdi, da želi obvestila (web push + email).
-2. **AI čaka (avtomatika):** Sistem avtomatsko pregleduje vse platforme.
-3. **Obvestilo:** Marko prejme:
-   - web push obvestilo v brskalniku na telefonu/računalniku,
-   - in/ali email (npr. dnevni povzetek),
-   - za premium račun tudi SMS pri TOP zadetkih.
-4. **Varni dogovor:** Marko klikne → AI preveri avtentičnost kolesa → strukturiran dogovor z lastnikom → escrow plačilo.
-5. **Rezultat:** V 5 minutah je našel kolo in se dogovoril varno – brez 2 ur ročnega iskanja.
+1. **Iskanje storitve (1 minuta):** Marija odpre app in vnese: *»Popraviti moram pušilko v kuhinji, potrebujem danes do 18:00«*
+2. **AI filtriranje:** Perplexity PRO razume zahtevo → sistem avtomatski predlaga top 5 kleparjev v Velenju, ki so dostopni danes
+3. **Rezervacija (30 sekund):** Marija vidi:
+   - Ime kleparja, ocene (4.8⭐ iz 12 verificiranih naročil)
+   - Cena: €45 + material
+   - Razpoložljivost: "Dostopen 14:00-15:30"
+   - Klikne "Rezerviraj" → Stripe plačilo kartice
+4. **Potrditev:** Kleparj prejme push obvestilo + SMS → "Nova rezervacija: Velenje, pušilka, danes 14:00"
+5. **Izvršitev:** Kleparj pride ob 14:10, popravila (20 min) → Marija odobri delo → denar se avtomatski transferira na račun kleparja
+6. **Rezultat:** V 5 minutah je Marija našla zaupljiva popravilca in ga plačala varno – brez 3 ur čakanja in dogovarjanja.
 
 ---
 
@@ -113,161 +140,175 @@ Uporabniki se pri iskanju rabljenih stvari soočajo s **fragmentiranim tržišč
 
 ### Stanje na slovenskem trgu
 
-**Obstoječe platforme:**
+**Obstoječe "platforme":**
 
-| Platforma | Uporabniki (mesečno) | Jakost | Slabost |
+| Kanal | Uporabniki (mesečno) | Jakost | Slabost |
 |---|---|---|---|
-| **Bolha.com** | 400.000+ | Največja baza | Ročno iskanje, brez garancije |
-| **Vinted** | 50.000+ | Garancija, glas | Samo obleke |
-| **Facebook Marketplace** | 300.000+ | Socialno | Brez varnosti |
-| **Oglasi.si** | 100.000+ | Specifično | Zastarelo |
-| **Depop** | 10.000 | Moda, socialno | Nišno |
+| **Facebook Skupine** | 50.000+ | Lokalno, socialno | Brezvrstno, brezsistematično |
+| **WhatsApp kontakti** | Milijarde | Direktno | Brez ocene, ni garancije |
+| **Bolha.si (storitve)** | 20.000 | Znano ime | Slaba infrastruktura za time-based storitve |
+| **Google Ads** | 30.000 | Selektiven | Drago za majhne obrtnika |
+| **Posamezne spletne strani** | Različno | Neorganizirano | Zastarele, brez IT |
 
-**Velika vrzel:** Ni nobene platforme, ki bi agregirala VSE oglase in imela AI avto-obveščanje + preverjanje avtentičnosti.
+**Velika vrzel:** Ni nobene platforme, ki bi agregirala lokalne storitve s **real-time razpoložljivostjo + AI filtriranjen + integrirano plačilo + avtomatsko dodeljevanjem**.
 
 ### Tržna priložnost
 
 - **Slovenija:** 2,1 milijona prebivalcev
-- **Vrednost tržišča:** €200-300 milijonov letno (rabljene stvari)
-- **Penetracija:** Samo 20% potencialnega trga
-- **Analiza rasti:** EU trg rabljenih stvari raste 15-20% letno
-- **Potencial za PametnoNajdiRabljeno:** 10% tržnega deleža = €20-30M vrednosti transakcij letno
+- **Vrednost tržišča:** €150-200 milijonov letno (storitve za dom)
+- **Aktivne stranke:** Ocenjujem 200.000+ letnih iskanj (popravila, čiščenje, nego trate)
+- **Penetracija:** Samo 5-10% trenutno na digital platformah
+- **Analiza rasti:** EU trg storitev na zahtevo raste 20-25% letno (vir: Statista)
+- **Potencial za DomServices:** 15% tržnega deleža = €22,5-30M vrednosti transakcij letno
 
 ### Konkurenčna analiza
 
-**Globalni primeri:**
-- **eBay** – agregacija, a zastarelo za rabljene stvari
-- **TaskRabbit/Thumbtack** – se ne fokusirata na rabljene stvari
-- **OLX (vzhodna Evropa)** – klasificirani oglasi, brez AI
+**Evropski primeri:**
+- **TaskRabbit (ZDA/EU)** – splošne storitve, vendar drago za male obrtnika, kompleksno
+- **MyHammer (Nemčija)** – ponudniki sami nastavijo ceno, brez real-time razpoložljivosti
+- **Helpling (skandinavija)** – osredotočen na čiščenje, ne na popravila
+- **Handy (ZDA)** – preprost, a brez AI filtriranja
 
-**Zaključek:** PametnoNajdiRabljeno bi bil **prvi AI-powered meta-marketplace za rabljene stvari v Evropi**.
+**Zaključek:** DomServices bi bil **prvi AI-powered local services marketplace v Sloveniji** s posebnim poudarkom na **real-time razpoložljivosti in avtomatski dodelitvi**.
 
 ### Viri in viri podatkov
 
 **Raziskave in viri, na katere se opiramo:**
 
-1. **Bolha.com – Interno poročilo (2025)**
-   - Število oglasov letno: >3 milijone
-   - Aktivni uporabniki mesečno: 400.000+
-   - Stopnja prodaje oglasov: 15-20%
-   - Vir: Interno podjetje statistike Bolhe
-
-2. **Statista – European E-commerce Market (2024)**
-   - EU trg rabljenih stvari raste 15-20% letno
-   - Pričakovana vrednost tržišča rabljenih stvari v EU: €50+ milijard do 2028
-   - Vir: https://www.statista.com/outlook/dmo/ecommerce/secondhand-goods/europe
-
-3. **Vinted – Javno poročilo (2024)**
-   - Slovenija: 50.000+ aktivnih uporabnikov mesečno
-   - Svetovna vrednost transakcij: €2+ milijarde letno
-   - Vir: https://www.vinted.com/about
-
-4. **Facebook – IQ Research (2023)**
-   - Facebook Marketplace: 300.000+ aktivnih uporabnikov v Sloveniji mesečno
-   - Drugi največji kanal za rabljene stvari v Evropi
-   - Vir: https://www.facebook.com/business/insights/resources
-
-5. **Greenpeace – Second Hand Fashion Report (2023)**
-   - Rabljeni proizvodi zmanjšajo CO2 emisije za 82% v primerjavi z novimi
-   - 62% evropskih potrošnikov razmišlja o trajnosti pri nakupih
-   - Vir: https://www.greenpeace.org/
-
-6. **Slovensko Statističko Društvo (2024)**
+1. **Slovenski Statističko Društvo (2024)**
    - Slovenija: 2,1 milijona prebivalcev
-   - Penetracija spletnega nakupovanja: 78%
+   - Penetracija spletnih storitev: 65%
    - Vir: https://www.stat.si/
 
-7. **eMarketer – Global Ecommerce Forecast (2024)**
-   - Trend rabljenih stvari raste 3-5x hitreje kot novi e-commerce
-   - Gen Z kupuje rabljene stvari: 70% redno
-   - Vir: https://www.emarketer.com/
+2. **Statista – European On-Demand Services Market (2024)**
+   - EU trg storitev na zahtevo raste 20-25% letno
+   - Pričakovana vrednost tržišča do 2028: €60+ milijard v EU
+   - Vir: https://www.statista.com/outlook/dmo/ecommerce/on-demand-services/europe
+
+3. **McKinsey – Future of Work (2023)**
+   - 35% gospodinjstev v razvitih državah koristi vsaj eno platformo za domače storitve mesečno
+   - Povprečna poraba: €80-150 mesečno
+   - Vir: https://www.mckinsey.com/
+
+4. **Eurostat – Services Sector in EU (2024)**
+   - Popravila in vzdrževanje domov: €120+ milijard letno v EU
+   - Samo 15-20% je digitalizirano
+   - Vir: https://ec.europa.eu/eurostat
+
+5. **GfK Consumer Survey (2023)**
+   - 78% respondentov v EU preferira spletno iskanje in rezervacijo storitev
+   - 85% želi vnaprej vedeti ceno
+   - 72% želi reviews in reference
+   - Vir: https://www.gfk.com/
+
+6. **Pew Research – Digital Services Adoption (2024)**
+   - Gen X in Millenniali: 80%+ koristi digitalne platforme za storitve
+   - Boomers: 45%+ (rastoči segment)
+   - Vir: https://www.pewresearch.org/
 
 ---
 
 ## 7. Tehnološke rešitve in orodja
 
-### 🎯 IZBRANA KOMBINACIJA (Spletna aplikacija + Perplexity AI + multi-kanalna obvestila)
+### 🎯 IZBRANA KOMBINACIJA (Spletna aplikacija + Perplexity AI + Real-time notifications + Stripe)
 
 #### **Frontend (Spletna aplikacija – Desktop & Mobile Web):**
-- **Next.js** – SSR, dober SEO, hitro nalaganje.
-- **Tailwind CSS** – responsive design, en layout za telefon, tablico in desktop.
+- **Next.js** – SSR, hitro nalaganje, odličen SEO, preverjeno za SPA
+- **Tailwind CSS** – responsive design, en layout za vse naprave
+- **TanStack Query (React Query)** – upravljanje stanja in cachinga na klientu
 
 #### **Backend (Server logika):**
-- **Node.js + Express** – isti jezik kot frontend (JavaScript), hitrejši razvoj.
+- **Node.js + Express** – isti jezik kot frontend, hitrejši razvoj, lahka integracija z API-ji
+- **WebSocket (Socket.io)** – real-time komunikacija (obvestila, live urnik, sporočila)
 
 #### **Baza podatkov:**
-- **Firebase Realtime Database** – real-time podatki, brezplačen free tier, brez ročnega SQL.
+- **Firebase Realtime Database** – real-time sinhronizacija, brezplačen free tier (do 100 hkrati aktivnih uporabnikov)
+- **Firebase Authentication** – upravljanje uporabnikov, socialna prijava (Google, Facebook)
 
-#### **AI & analiza:**
-- **Perplexity PRO API** – razumevanje povpraševanj, analiza opisov oglasov, detekcija sumljivih oglasov.
-- **Google Cloud Vision API** – analiza slik (ponarejenost, OCR).
-- **Web Speech API** – glasovni vnos v brskalniku.
+#### **AI & analiza zahtev:**
+- **Perplexity PRO API** – razumevanje zahteve uporabnika ("popraviti moram pušilko") → predlog najprimernejših ponudnikov na osnovi kategorije, lokacije, ocene
 
-#### **Agregacija oglasov:**
-- **Puppeteer** – scraping Bolha.com, Oglasi.si, del Facebook Marketplace.
+#### **Plačila (Stripe):**
+- **Stripe Payment Intent** – varno plačilo kartice s poudarkom na SCA/3D Secure
+- **Stripe Connect** – za avtomatski transfer denarja ponudnikom
+- **Stripe Webhooks** – avtomatski trigger za potrditeve in obvestila
 
-#### **Obveščanje uporabnikov (namesto Viber/WhatsApp):**
+#### **Real-time obveščanje:**
 
-1. **Web push notifičacije (prek brskalnika)**[web:64][web:67][web:71][web:84]
-   - Uporaba **Push API + Notifications API** v brskalniku.
-   - Deluje na desktop in mobilnih brskalnikih (Chrome, Edge, Firefox, Android Chrome).
-   - Idealno za real-time: “ravnokar se je pojavil nov oglas, ki ustreza tvojim kriterijem”.
+1. **Web push notifičacije (prek brskalnika)**
+   - Uporaba **Push API + Notifications API** v brskalniku
+   - Ponudnik: "Nova rezervacija: Popravilo pušilke, danes 14:00"
+   - Uporabnik: "Kleparj je sprejet vaš naročilo"
 
-2. **Email obvestila (digest + posamezna obvestila)**[web:82][web:85][web:87]
-   - Dnevni ali urni povzetek novih oglasov.
-   - Uporaba ponudnika (npr. SendGrid / Mailgun / Brevo).
-   - Dobro za uporabnike, ki ne želijo push notifikacij.
+2. **Email obvestila**
+   - Potrditev rezervacije, račun, feedback zahteva
+   - Ponudnik za SMS na voljo: Sendgrid / Mailgun / Brevo
 
-3. **SMS (za premium uporabnike / kritične ponudbe)**[web:83][web:86][web:78]
-   - Integracija z EU SMS API (npr. GatewayAPI, Infobip, Sinch).
-   - Uporaba za: zelo dobra ponudba, potrditve plačil, varnostna obvestila.
-   - Plačljiv per SMS, zato omejeno na premium / opt‑in.
+3. **SMS (za ponudnike – premium)**
+   - "Novo naročilo v Velenju: Popravilo pušilke, danes 14:00 – Odgovori v app"
+   - Integracija z EU SMS API (npr. GatewayAPI, Infobip)
 
-4. **In-app / on-site center obvestil**
-   - Znotraj aplikacije (ikona zvonca + spustni seznam zadnjih X obvestil).
-   - Vedno sinhronizirano s push/email/SMS.
+4. **In-app obvestilni center**
+   - Zvonec ikona + spustni seznam zadnjih obvestil
+   - Sinhronizirano s push/email/SMS
 
 #### **Hosting & Deployment:**
-- **Vercel** – hosting za Next.js front/back.
-- **Firebase Hosting** – dodatne statične vsebine (slike, JS).
-- **GitHub** – verzioniranje in CI/CD.
+- **Vercel** – hosting Next.js frontend + backend functions
+- **Firebase Hosting** – statične vsebine
+- **GitHub** – verzioniranje, CI/CD pipeline
+- **Cloudinary** – slike (profile, galerije del)
 
 ---
 
 ## 8. Model monetizacije (kako služiti denar)
 
-### Freemium Model
+### Freemium Model – Za Ponudnike
 
 **Brezplačni plan:**
-- 5 aktivnih iskanj (»saved searches«) mesečno
-- Osnovni dostop do oglasov
-- Obvestila na email
+- Do 10 naročil mesečno
+- Osnovni profil (foto, opis, ocene)
+- Upravljanje razpoložljivosti (urnik)
+- Email obvestila
 
-**Premium (€4,99/mesec):**
-- Neomejenih iskanj
-- Prioritetna obvestila
-- AI analiza slik (preverjanje avtentičnosti)
-- Brez oglasov
-- Direktna pomoč (chat)
+**Premium (€6,99/mesec ali €69,99/leto):**
+- Neomejenih naročil
+- Prioritetna vidnost v iskanju (top 3 ponudniki)
+- SMS obvestila za nova naročila
+- Analitika (podatki o naročilih, stopnja odobritve)
+- AI predlog cen (Perplexity analiza tržnih cen)
 
-### Commission Model
+**Pro (€14,99/mesec ali €149,99/leto):**
+- Vse od Premium
+- Avtomatski odgovori (bot) na pogosta vprašanja
+- Integracija s kalenami (Google Calendar, Outlook)
+- API dostop za custom integracijo
+- Prioritetna tehnična pomoč
 
-- **3-5% provizije od vsake transakcije** (ko je denar spremenjen)
-- Primer: Uporabnik kupi kolo za €110 → PametnoNajdiRabljeno dobi €3,30-5,50
+### Commission Model – Transakcije
 
-### Premium za Prodajalce
+- **5% provizije od vsake uspešne transakcije** (plačane prek Stripe)
+- Primer: Kleparj dobi naročilo za €100 → DomServices dobi €5
+- Provizija se avtomatski odšteje pri transferju denarja
 
-- **€9,99/mesec** – Oglase naredi »izpostavljen« (bolj viden)
-- **€19,99/mesec** – Analitika (koliko klikov, koliko zainteresiranih)
+### Premium Za Uporabnike (Nepripravljene storitve)
+
+- **Opcije** (ne obvezno):
+  - **Garantija kvalitete (€2):** Če je delo nepopolno, DomServices vrne denar
+  - **Priority booking (+50 centov):** Rezervacija v prvih 3 minutah – ponudnik se hitro odzove
 
 ### B2B Partnerstva
 
-- **Integracija z OLX, Bolho, Vintedjo** – naročnina za podatke (€500-1000/mesec)
-- **Integracija s CRM za prodajnike** – stroški po uporabniku
-- **Korporativne licence** – za velike spletne prodajne centre
+- **Nepremičninski agencije / Upravljavci hiš:** €500-1000/mesec za white-label dostop
+- **Zavarovalnice:** Integracija (pri zahtevku za poškodbe → direktna rezervacija popravilca prek DomServices)
+- **Banke / kreditne kartice:** Kobranding (npr. "Mastercard DomServices" – special offer)
 
 ---
 
-## Zaključek
 
-**PametnoNajdiRabljeno** rešuje realen problem na realnem tržišču s pametno kombinacijo AI, agregacije in garancije. V času, ko rastejo trend trajnostne porabe in recikliranja, je to idealna rešitev za slovenski (in evropski) trg.
+## 9. Zaključek
+
+**DomServices** rešuje realen problem na realnem tržišču s pametno kombinacijo AI, real-time razpoložljivosti in integriranega plačila. V času, ko je povpraševanje po "on-demand" storitvah eksponentno naraščajoče (20-25% letno rast), je to idealna rešitev za **slovenski in širši evropski trg**.
+
+**Unikatnost:** Prva platforma, ki kombinira **AI filtriranje zahtev (Perplexity PRO) + live razpoložljivost + integrirano plačilo + avtomatska dodelitev** – kot "Uber za domače storitve", toda brez visoke provizije in z lokalnim fokussom.
+
+**Konkurenčna prednost:** Enostavnost za ponudnike (študente, obrtnika) + zaupanje za uporabnike (preverjene ocene + Stripe zaščita) = "network efekt" – prvi ponudnik pride, drugi se hitro sledi.
