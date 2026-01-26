@@ -1,4 +1,4 @@
-# DomServices – AI Platforma za Popravila in Nego Doma
+# DomServices – AI Platforma za povezavo med strankami in ponudniki storitev (Wolt za lokalne storitve)
 
 ---
 
