@@ -16,9 +16,7 @@
 
 ## **2.1 Value Proposition Canvas (VPC)**
 
-![DomServices Value Proposition Canvas](./MojVPC-DomServices-downloadCanva.jpg)
 <img width="2000" height="1414" alt="MojVPC-DomServices-downloadCanva" src="https://github.com/user-attachments/assets/1707b5d2-cde8-471a-a86d-795ba04ffe66" />
-
 
 ### **Value Proposition:**
 AI platforma, ki omogoča hitro in zaupljivo iskanje lokalnih ponudnikov storitev (popravila, čiščenje, vzdrževanje) z razpoložljivostjo v realnem času in varnim plačilom – od iskanja do rezervacije v 5 minutah.
@@ -223,40 +221,27 @@ Lastniki domov in stanovanj (25-65 let), ki iščejo hitre in zaupljive lokalne 
 | **H4: Preverjene ocene (verification sistem) in Stripe escrow plačilo bosta odstranjeva glavno oviro zaupanja – 70%+ strank bo uporabljalo platformo, če vidijo, da so ponudniki "certificirani" in je plačilo varno.** | Zaupanje je ključna bariera pri marketplacih – stranke se bojijo goljufije. Če to rešiš, je adoption hitrejši. | **Test:** Nareji **prototype** s prikazom: (1) preverjenih ponudnikov, (2) escrow sistema → Pokaži ga 20-30 lastnikom → Meri: **ali bi jih to prepričalo, da bi poskusili?** (target: ≥70%) → **Beta faza:** Meri **completion rate** (rezervacija → plačilo → odobritev) |
 | **H5: AI filtriranje zahtev (Perplexity PRO) bo skrajšalo čas iskanja najustreznejšega ponudnika z 30 minut na 2-3 minute, kar bo trikrat povečalo user engagement in retention.** | AI je tvoja unikatna prednost – vendar morajo to dejansko čutiti uporabniki. Če AI ne deluje dobro, engagement pade. | **Test:** **MVP s 3 različnimi scenariji zahtev** ("popraviti pušilko", "očistiti stanovanje", "nego trate") → Preizkusi Perplexity PRO API → Meri: (1) hitrost odgovora (<3 min?), (2) relevantnost predlogov (prosi 10 uporabnikov: "Ali bi ti ta ponudnik pomagal?") → **Beta test:** Meri čas od iskanja do rezervacije (target: <5 minut) |
 
+** Ključno ekonomsko vprašanje: **
+** Če povprečna stranka prihrani 1,5 ure iskanja (vrednost ~€20-30), je 5% provizija zelo realna cena. Če povprečni ponudnik dobi 5-10 novih naročil mesečno (~€500-1.000 dodatnega prihodka), je €6,99-14,99/mesec naročnina zanemarljiva (efektivno ~1-3% strošek za pridobitev strank). **
+
 ---
 
 ## **KLJUČNE UGOTOVITVE**
 
-✅ **Two-sided marketplace** – prihodki iz obeh strani (provizije + naročnine ponudnikov + premium opcije strank)  
-✅ **Network effect** – več ponudnikov → več strank → več ponudnikov  
-✅ **Freemium strategija** – nizka vstopna bariera za ponudnike (free plan), nato upsell na Premium/Pro  
-✅ **Skalabilnost** – B2B partnerstva (white-label) povečajo vrednost brez velikih dodatnih stroškov  
-✅ **Ekonomska upravičenost** – prihranek časa (1,5h → 5min) upravičuje 5% provizijo  
+**Two-sided marketplace** – prihodki iz obeh strani (provizije + naročnine ponudnikov + premium opcije strank)  
+**Network effect** – več ponudnikov → več strank → več ponudnikov  
+**Freemium strategija** – nizka vstopna bariera za ponudnike (free plan), nato upsell na Premium/Pro  
+**Skalabilnost** – B2B partnerstva (white-label) povečajo vrednost brez velikih dodatnih stroškov  
+**Ekonomska upravičenost** – prihranek časa (1,5h → 5min) upravičuje 5% provizijo  
 
 ---
 
 ## **KAKO STRUKTURIRANE HIPOTEZE POMAGAJO?**
 
-🎯 **H1 & H2** = Upravičevanje **primarnega revenue modela** (provizije, naročnine)  
-🎯 **H3** = Upravičevanje **two-sided marketplace** (da deluje za obe strani)  
-🎯 **H4** = Reševanje **glavne ovire zaupanja** (kritična za adoption)  
-🎯 **H5** = Validacija **unikatne prednosti** (AI filtriranje)  
+**H1 & H2** = Upravičevanje **primarnega revenue modela** (provizije, naročnine)  
+**H3** = Upravičevanje **two-sided marketplace** (da deluje za obe strani)  
+**H4** = Reševanje **glavne ovire zaupanja** (kritična za adoption)  
+**H5** = Validacija **unikatne prednosti** (AI filtriranje)  
 
 ---
 
-## **HITRI PREGLED – PRIORITETA TESTIRANJA**
-
-| **Prioriteta** | **Hipoteza** | **Rok** |
-|---|---|---|
-| 🔴 **Kritično** | H1 (ekonomska smiselnost za stranke) | Teden 1-2 |
-| 🔴 **Kritično** | H3 (ekonomska smiselnost za ponudnike) | Teden 1-2 |
-| 🟠 **Visoko** | H2 (prava bolečina) | Teden 2-3 |
-| 🟠 **Visoko** | H4 (zaupanje deluje) | Teden 3-4 |
-| 🟡 **Srednje** | H5 (AI filtriranje je dejanski problem solver) | Teden 4-6 |
-
----
-
-**Avtor:** Nik Jovan  
-**Datum:** Februar 2026  
-**Predmet:** Načrtovanje in razvoj IT produktov  
-**Institucija:** Višja strokovna šola
