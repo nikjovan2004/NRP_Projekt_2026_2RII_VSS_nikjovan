@@ -17,6 +17,8 @@
 ## **2.1 Value Proposition Canvas (VPC)**
 
 ![DomServices Value Proposition Canvas](./MojVPC-DomServices-downloadCanva.jpg)
+<img width="2000" height="1414" alt="MojVPC-DomServices-downloadCanva" src="https://github.com/user-attachments/assets/1707b5d2-cde8-471a-a86d-795ba04ffe66" />
+
 
 ### **Value Proposition:**
 AI platforma, ki omogoča hitro in zaupljivo iskanje lokalnih ponudnikov storitev (popravila, čiščenje, vzdrževanje) z razpoložljivostjo v realnem času in varnim plačilom – od iskanja do rezervacije v 5 minutah.
