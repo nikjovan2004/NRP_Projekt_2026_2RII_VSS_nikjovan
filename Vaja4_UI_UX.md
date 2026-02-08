@@ -357,208 +357,104 @@ Spodaj so glavne smernice za vizualno razporeditev.
 
 ---
 
-## 4️⃣ Prompt za Google Stitch (za generiranje UI)
+## 4️⃣ UX skice/končni design (obvezno)
 
-Ta blok lahko kopiraš v `.md` ali direktno v Google Stitch:
+**Prva interakcija in registracija**
+  
+web application/stitch/projects/6488468369678298736/screens/ae7bcdef2ec04bc8aa053f040f760049<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/bb194bb0-34bb-4d7d-aacc-d36f8166c084" />
 
-```markdown
-## Prompt za Google Stitch – DomServices UI (full)
+web application/stitch/projects/6488468369678298736/screens/dff578353ea94fdeac1946d248acbab7<img width="1600" height="1349" alt="image" src="https://github.com/user-attachments/assets/5a2faa1a-e2ca-4899-a14d-211bb992eeec" />
 
-Design a complete, modern **web + mobile UI** for an on‑demand **home services marketplace** called **DomServices** (similar to “Uber for home repairs and cleaning” in Slovenia).
+web application/stitch/projects/6488468369678298736/screens/e48e307e91db45dbaaa61e5df39b6944<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/0d2b8c97-8c7a-4729-acf3-1b8eaab56bb1" />
 
-There are **two roles**:  
-1) Customers (home owners / tenants, 25–65)  
-2) Service providers (independent pros and small businesses).
+web application/stitch/projects/6488468369678298736/screens/5099aa457a2d44999cef5d9dd0bcc9d0<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/65ba8393-e822-47c0-828d-eb9efe2e49a9" />
 
-Focus on a clean, trustworthy experience, with AI‑based search, real‑time availability and secure payments.
 
-### CUSTOMER FLOWS AND SCREENS
+**Iskanje, izbira in rezervacija**
 
-1. **Onboarding / welcome**
-   - 2–3 intro slides: “Find trusted local pros”, “Real‑time availability”, “Secure payment & quality guarantee”.
-   - Buttons: “Get started”, “Log in”, “Sign up”.
+web application/stitch/projects/6488468369678298736/screens/50c51f045de04a7598e882825221bc76<img width="1115" height="1600" alt="image" src="https://github.com/user-attachments/assets/c9c09b02-9c70-4864-886d-ed8c45fbc4d1" />
 
-2. **Authentication**
-   - **Login:** Email/phone + password, links “Create account”, “Forgot password”.
-   - **Sign up:** First name, Last name, Email, Password, checkbox “I am a service provider”, checkbox “I agree to Terms & Privacy”.
-   - **Forgot password:** Email field + “Send reset link”.
+web application/stitch/projects/6488468369678298736/screens/3a7a6c89090b4898bf8ad6f6b6e49883<img width="770" height="1600" alt="image" src="https://github.com/user-attachments/assets/a3b1bcce-4636-46e5-bbdf-985d985a1795" />
 
-3. **Customer Home dashboard**
-   - Top: greeting and question “What do you need fixed today?”.
-   - Large AI search bar (users can type natural language like “my kitchen sink is leaking”), with a small “AI” badge.
-   - Chips for categories with icons: Repairs, Cleaning, Garden, Other.
-   - Suggested quick queries as chips (e.g. “Fix leaking pipe”, “Deep clean apartment”, “Mow the lawn”).
-   - Section “Recommended pros near you” with horizontal scroll of provider cards.
-   - Bottom navigation bar: Home, Bookings, Notifications, Profile.
+web application/stitch/projects/6488468369678298736/screens/44f5b7e1437149c4afa86555c00ce35f<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/e2b4f496-9d69-433e-bff6-6d27b2ca9247" />
 
-4. **Location picker**
-   - “Use my location” button, address input with suggestions, small map with draggable pin.
-   - Option to select from saved addresses (Home, Work, Other).
-   - Primary button: “Confirm location”.
+web application/stitch/projects/6488468369678298736/screens/200464bf7b924900be9a260fd26be6c8<img width="1294" height="1600" alt="image" src="https://github.com/user-attachments/assets/c7cee7af-a697-45ff-8cdc-edb24b18b79e" />
 
-5. **Search results**
-   - Header with query text or selected category and location.
-   - Filter & sort bar at the top.
-   - Provider cards show: photo, name, rating + number of reviews, starting price, distance, badges “Verified”, “Available today 14:00–16:00”.
-   - Tap card → Provider profile.
+web application/stitch/projects/6488468369678298736/screens/9903def650194c77bb2611b3b7ada8da<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/2a489e92-ee1e-42bc-88b3-a55904746034" />
 
-6. **Filter & sort modal**
-   - Controls: minimum rating slider, price range, distance, toggles “Only verified”, “Available today”.
-   - Buttons: “Reset”, “Apply”.
+web application/stitch/projects/6488468369678298736/screens/3b099d565c92456aa9f9725d2fdbea6e<img width="1600" height="1590" alt="image" src="https://github.com/user-attachments/assets/26d7a282-e406-4f0d-b4bb-e6f61422adc1" />
 
-7. **Provider profile**
-   - Large header: photo, name, rating, “Verified” badge, number of completed jobs.
-   - Sections or tabs:
-     - About (bio, experience, service area),
-     - Services & prices,
-     - Reviews,
-     - Gallery (before/after photos).
-   - Sticky footer: price from, primary button “Book time”.
-   - Secondary actions: “Save to favourites”, “Share”.
+web application/stitch/projects/6488468369678298736/screens/0af6ee89b3aa468ca290ddf0b526bf71<img width="1198" height="1600" alt="image" src="https://github.com/user-attachments/assets/f7ad04d9-1c69-4f49-94f8-96ca1857c5c3" />
 
-8. **Time selection**
-   - Step indicator: 1) Select pro, 2) Time, 3) Payment.
-   - Calendar for date selection.
-   - List of available time slots for the chosen day.
-   - Notes field: “Add notes for your pro…”.
-   - Button: “Continue to payment”.
+web application/stitch/projects/6488468369678298736/screens/4ea1a6ff5da94d5b98d392ebb28b3d6d<img width="1600" height="1501" alt="image" src="https://github.com/user-attachments/assets/83f2e829-67d9-4de5-ae94-395d1e88cf49" />
 
-9. **Order summary & payment**
-   - Summary card: service, provider, date, time, address, price breakdown.
-   - Optional toggles:
-     - “Quality guarantee (+€2)”
-     - “Priority booking (+€0.50)”.
-   - Payment form with card fields (Stripe‑style), option to save card.
-   - Trust indicators: lock icon, “Secure payment”, Stripe logo.
-   - Primary button: “Pay and book”.
+web application/stitch/projects/6488468369678298736/screens/b90187980a1e4ad08b8d1ee8960fead2<img width="1600" height="1578" alt="image" src="https://github.com/user-attachments/assets/1a95ed86-d97c-4167-9b7a-7d39b50ef6ef" />
 
-10. **Booking confirmation**
-    - Big checkmark, booking ID, date & time.
-    - Text explaining “The provider will confirm your booking and you’ll receive updates here.”
-    - Buttons: “View booking”, “Back to home”.
 
-11. **Bookings list**
-    - Tabs: Upcoming | Past.
-    - Booking cards with service, provider, date, time, price, and status chip (Pending, Confirmed, On the way, Completed, Cancelled).
-    - Tap card → Booking detail.
+**Opravljanje po rezervaciji**
 
-12. **Booking detail**
-    - Status timeline (Pending → Confirmed → On the way → Completed).
-    - Summary of service and price.
-    - Buttons:
-      - “Chat with provider”
-      - “Cancel booking” (if allowed)
-      - “View invoice” (after completion).
-    - Link to “Rate service” when completed.
+web application/stitch/projects/6488468369678298736/screens/503b837d8edc43a08a66777c6afc66ff<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/2a884f60-99ce-46a3-b1b7-9e687e7b15f1" />
 
-13. **Customer chat**
-    - Chat UI with message bubbles, timestamps.
-    - Input field with attachment icon to upload photos of the problem.
-    - Header: provider photo, name, status (Online / Last seen).
+web application/stitch/projects/6488468369678298736/screens/5d405cc72938419f9445bb28da86c439<img width="1600" height="1334" alt="image" src="https://github.com/user-attachments/assets/bf67ead9-b098-4865-a598-0d8db472fc97" />
 
-14. **Rating & review screen**
-    - Title: “How satisfied were you with this service?”
-    - Subtitle with provider name and service.
-       - Large 1–5 star rating.
-    - Quick-tag chips: “On time”, “Friendly”, “High quality”, “Great value”, “Poor communication”, “Late arrival”.
-    - Multiline text area for an optional comment.
-    - Info text: “Your review helps others choose the right pro.”
-    - Buttons: primary “Submit review”, secondary “Skip for now”.
+web application/stitch/projects/6488468369678298736/screens/b38b74aeb094422eb28b94449a98e5cb<img width="1600" height="1340" alt="image" src="https://github.com/user-attachments/assets/5253d325-324d-428f-a5bd-20b82d373481" />
 
-15. **Invoice / receipt**
-    - Invoice-style page:
-      - Invoice ID, date, Paid status.
-      - Provider details, customer details.
-      - Line items with service, quantity, unit price, subtotal, taxes if any, total.
-      - Payment method (“Paid with card via Stripe”).
-    - Buttons: “Download PDF”, “Send to email”.
+web application/stitch/projects/6488468369678298736/screens/bad1d81479e9454ebddb163e073c11db<img width="1600" height="1389" alt="image" src="https://github.com/user-attachments/assets/6aaecb39-cf6d-4308-bf3e-23f6f4f375ed" />
 
-16. **Notifications (customer)**
-    - List of notifications: new booking status, provider messages, reminders, review prompts.
-    - Each item leads to Booking detail, Chat, or Rating screen.
+web application/stitch/projects/6488468369678298736/screens/26e1ca1dbf8b4b34b58611bdb6040270<img width="1221" height="1600" alt="image" src="https://github.com/user-attachments/assets/c578443b-7371-47a0-9474-a1895228be19" />
 
-17. **Customer profile & settings**
-    - Sections:
-      - Personal info
-      - Saved addresses
-      - Payment methods
-      - Notifications preferences (push/email/SMS)
-      - Language
-      - Help & FAQ
-      - Legal (Terms & Privacy)
-      - Log out.
+web application/stitch/projects/6488468369678298736/screens/f2b166db0fa847c7a1db6a7f6dd98a3b<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/19c373db-43ca-4c4e-97af-56199cf628cf" />
 
-18. **Favourites**
-    - List of saved providers with same card design as search results.
+web application/stitch/projects/6488468369678298736/screens/f70598922a4e4b83af475d83a0513622<img width="1349" height="1600" alt="image" src="https://github.com/user-attachments/assets/5b749668-4989-478d-b8f9-1aa7539d1a0c" />
 
-19. **Help & FAQ**
-    - Categories and searchable articles about payments, cancellations, quality guarantee, account.
-    - Button “Contact support”.
+web application/stitch/projects/6488468369678298736/screens/e34d0c91aeea4d99a4d15a836a0e2c16<img width="1600" height="1295" alt="image" src="https://github.com/user-attachments/assets/7fab5874-24cc-4851-b21b-8ba1a1650f15" />
 
-20. **Terms & Privacy**
-    - Scrollable legal text, linkable from registration and profile.
+web application/stitch/projects/6488468369678298736/screens/ac571433d5144f48a5eaeac64dd4008a<img width="1600" height="1296" alt="image" src="https://github.com/user-attachments/assets/a1e86936-1a90-4063-8497-f5cdf1bb6830" />
 
-21. **Empty and error states**
-    - No results state with friendly message, buttons “Adjust filters” and “Show all in your city”.
-    - Network/server error state with “Retry” and “Back to home”.
 
-### PROVIDER FLOWS AND SCREENS
+**Poslovno okolje za ponudnike**
 
-22. **Provider onboarding checklist**
-    - After choosing “I am a service provider”.
-    - Steps: 1) Complete profile, 2) Add services & prices, 3) Set availability, 4) Connect payouts (Stripe).
-    - Progress indicator and CTA buttons for each step.
+web application/stitch/projects/6488468369678298736/screens/5d0eadec35da4b5ab728cc8befbd9eab<img width="1600" height="1405" alt="image" src="https://github.com/user-attachments/assets/d0b1771f-095c-4b4e-84ba-439be8cde5ad" />
 
-23. **Provider profile setup**
-    - Business name, contact info, service areas, description, profile photo/logo.
+web application/stitch/projects/6488468369678298736/screens/8171d57ea8f4492a9bd86a3726ebe1e8<img width="1271" height="1600" alt="image" src="https://github.com/user-attachments/assets/78177be7-de4a-4bf1-96f6-158061c7e223" />
 
-24. **Verification / KYC**
-    - Upload ID and business documents.
-    - Status: Pending / Verified / Rejected.
+web application/stitch/projects/6488468369678298736/screens/84f7f8e10dc1416ca9bee8b9ba9ef9a1<img width="1589" height="1600" alt="image" src="https://github.com/user-attachments/assets/fbbfaad9-1e97-4c81-a191-35219aee26d6" />
 
-25. **Provider dashboard**
-    - Today’s jobs list with times, addresses, status.
-    - Summary of today’s and this week’s earnings.
-    - Quick filters by status (New, Accepted, On the way, Completed).
+web application/stitch/projects/6488468369678298736/screens/71dbbb0e58a44e478180270b3141c606<img width="1600" height="1289" alt="image" src="https://github.com/user-attachments/assets/6d0238ba-c517-4961-8f3b-8a6a33421710" />
 
-26. **Schedule management**
-    - Weekly calendar where providers mark available slots.
-    - Ability to set recurring availability.
+web application/stitch/projects/6488468369678298736/screens/9f41393a2e1d454ea5068a52fe719a97<img width="1600" height="1449" alt="image" src="https://github.com/user-attachments/assets/d1460c17-1c05-4174-8c26-41380e81ba94" />
 
-27. **Services & pricing**
-    - List of services with price and duration.
-    - “Add service” form with name, description, price type (fixed/hourly).
 
-28. **Job detail (provider)**
-    - Customer name, address with small map, date/time, notes.
-    - Buttons: “Accept”, “Decline”, “On the way”, “Mark as completed”.
-    - Shortcut to chat with the customer.
 
-29. **Provider chat**
-    - Same layout as customer chat, separate role.
 
-30. **Earnings & payouts**
-    - Earnings overview graph.
-    - List of payouts with date, amount, status.
-    - Button “Connect Stripe account”.
 
-31. **Notifications (provider)**
-    - New bookings, changes, cancellations, new reviews.
-    - Tapping items leads to Job detail or Reviews.
 
-32. **Provider settings**
-    - Notification preferences, language/region, account details, log out.
 
-### VISUAL STYLE
 
-- Light theme, lots of white space, rounded cards and buttons.
-- Friendly, “home services” look and feel.
-- Main accent color: calming blue or teal; primary CTA color: contrasting warm orange.
-- Clear typography hierarchy and large tap targets for mobile.
-- Strong emphasis on trust: verified badges, star ratings, secure payment labels, clear statuses.
 
-### OUTPUT
 
-- Provide responsive layouts for both **mobile and desktop** for key screens (Home, Search results, Provider profile, Booking flow, Customer dashboard, Provider dashboard).
-- Make navigation flows clear and intuitive, minimizing steps to book a service.
-- Highlight elements that build **trust and reliability** at every step.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
