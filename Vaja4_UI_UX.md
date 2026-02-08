@@ -369,6 +369,8 @@ web application/stitch/projects/6488468369678298736/screens/e48e307e91db45dbaaa6
 
 web application/stitch/projects/6488468369678298736/screens/5099aa457a2d44999cef5d9dd0bcc9d0<img width="1600" height="1280" alt="image" src="https://github.com/user-attachments/assets/65ba8393-e822-47c0-828d-eb9efe2e49a9" />
 
+web application/stitch/projects/6488468369678298736/screens/53bc9b83eaee4463b5f6659c1c917c2d<img width="1197" height="1600" alt="image" src="https://github.com/user-attachments/assets/28300a2c-fee0-45f0-9ac9-61558f575145" />
+
 
 **Iskanje, izbira in rezervacija**
 
@@ -411,6 +413,9 @@ web application/stitch/projects/6488468369678298736/screens/e34d0c91aeea4d99a4d1
 
 web application/stitch/projects/6488468369678298736/screens/ac571433d5144f48a5eaeac64dd4008a<img width="1600" height="1296" alt="image" src="https://github.com/user-attachments/assets/a1e86936-1a90-4063-8497-f5cdf1bb6830" />
 
+web application/stitch/projects/6488468369678298736/screens/8171d57ea8f4492a9bd86a3726ebe1e8
+web application/stitch/projects/6488468369678298736/screens/9f41393a2e1d454ea5068a52fe719a97<img width="1271" height="1600" alt="image" src="https://github.com/user-attachments/assets/558776f0-3f39-4e82-8af8-408166196add" />
+
 
 **Poslovno okolje za ponudnike**
 
@@ -419,6 +424,9 @@ web application/stitch/projects/6488468369678298736/screens/5d0eadec35da4b5ab728
 web application/stitch/projects/6488468369678298736/screens/8171d57ea8f4492a9bd86a3726ebe1e8<img width="1271" height="1600" alt="image" src="https://github.com/user-attachments/assets/78177be7-de4a-4bf1-96f6-158061c7e223" />
 
 web application/stitch/projects/6488468369678298736/screens/84f7f8e10dc1416ca9bee8b9ba9ef9a1<img width="1589" height="1600" alt="image" src="https://github.com/user-attachments/assets/fbbfaad9-1e97-4c81-a191-35219aee26d6" />
+
+web application/stitch/projects/6488468369678298736/screens/53bc9b83eaee4463b5f6659c1c917c2d<img width="1197" height="1600" alt="image" src="https://github.com/user-attachments/assets/0ffd9bdb-5d67-4725-a9d5-1cb67f8e1dba" />
+
 
 web application/stitch/projects/6488468369678298736/screens/71dbbb0e58a44e478180270b3141c606<img width="1600" height="1289" alt="image" src="https://github.com/user-attachments/assets/6d0238ba-c517-4961-8f3b-8a6a33421710" />
 
