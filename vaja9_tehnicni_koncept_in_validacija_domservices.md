@@ -6,13 +6,13 @@
 
 **DomServices** je spletna aplikacija (Next.js), kjer:
 
-- **stranka** v naravnem jeziku opiše problem (npr. “pušilka pušča v kuhinji”),
-- frontend pokliče **AI iskanje** prek Next.js API route (`/api/search/ai`), ki uporablja **xAI Grok** in vrne strukturiran rezultat (kategorija, mesto, intent),
-- frontend prikaže ustrezne **ponudnike** (rezultati) in omogoča:
+- stranka v naravnem jeziku opiše problem (npr. “pušilka pušča v kuhinji”),
+- frontend pokliče AI iskanje prek Next.js API route (`/api/search/ai`), ki uporablja xAI Grok in vrne strukturiran rezultat (kategorija, mesto, intent),
+- frontend prikaže ustrezne ponudnike (rezultati) in omogoča:
   - rezervacijo termina (booking),
-  - plačilo depozita prek **Stripe Checkout (test mode)**,
+  - plačilo depozita prek Stripe Checkout (test mode),
   - komunikacijo (chat) in obvestila (in‑app + email),
-- podatki se shranjujejo v **Firebase/Firestore** (če je konfiguriran) in delno tudi v **localStorage** (mock sloj za MVP).
+- podatki se shranjujejo v Firebase/Firestore (če je konfiguriran) in delno tudi v `localStorage` (mock sloj za MVP).
 
 V grobem tok izgleda takole:
 
@@ -27,26 +27,26 @@ V grobem tok izgleda takole:
 ### Arhitekturni diagram (high‑level)
 
 ```mermaid
-flowchart LR
+graph LR
   U[Uporabnik (brskalnik)] --> FE[Next.js Frontend (App Router)]
 
   subgraph NEXT[Next.js aplikacija]
-    FE --> PAGES[Strani (customer/provider/auth)]
+    FE --> PAGES[Strani (customer / provider / auth)]
     FE --> API[API routes]
     API --> AIAPI[/api/search/ai/]
-    API --> STRIPEAPI[/api/checkout/session + /api/checkout/success/]
+    API --> STRIPEAPI[/api/checkout/session<br/>/api/checkout/success/]
     API --> EMAILAPI[/api/email/order-created/]
   end
 
-  PAGES <--> DL[Data layer (src/lib/*Data.ts)]
+  PAGES <--> DL[Data layer<br/>(src/lib/*Data.ts)]
   DL <--> FS[(Firebase Firestore)]
   FE <--> FS
 
   AIAPI --> XAI[xAI Grok API]
-  STRIPEAPI --> STRIPE[Stripe Checkout (test mode)]
+  STRIPEAPI --> STRIPE[Stripe Checkout<br/>(test mode)]
   EMAILAPI --> BREVO[Brevo SMTP]
 
-  FS --- COLS[collections:\nusers, providers, providerSlots,\norders, reviews, notifications,\nfavorites, alerts,\norders/{id}/messages]
+  FS --- COLS[collections:<br/>users, providers, providerSlots,<br/>orders, reviews, notifications,<br/>favorites, alerts,<br/>orders/{id}/messages]
 ```
 
 ### Glavne komponente (iz projekta)
