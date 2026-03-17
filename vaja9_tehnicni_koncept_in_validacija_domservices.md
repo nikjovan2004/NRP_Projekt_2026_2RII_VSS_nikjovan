@@ -26,27 +26,23 @@ V grobem tok izgleda takole:
 
 ### Arhitekturni diagram (high‑level)
 
-```mermaid
-flowchart LR
-  U[Uporabnik (brskalnik)] --> FE[Next.js Frontend (App Router)]
-
-  subgraph NEXT[Next.js aplikacija]
-    FE --> PAGES[Strani (customer/provider/auth)]
-    FE --> API[API routes]
-    API --> AIAPI["/api/search/ai"]
-    API --> STRIPEAPI["/api/checkout/session + /api/checkout/success"]
-    API --> EMAILAPI["/api/email/order-created"]
-  end
-
-  PAGES <--> DL["Data layer (src/lib/*Data.ts)"]
-  DL <--> FS[("Firebase Firestore")]
-  FE <--> FS
-
-  AIAPI --> XAI[xAI Grok API]
-  STRIPEAPI --> STRIPE[Stripe Checkout (test mode)]
-  EMAILAPI --> BREVO[Brevo SMTP]
-
-  FS --- COLS["collections:<br/>users, providers, providerSlots,<br/>orders, reviews, notifications,<br/>favorites, alerts,<br/>orders/{id}/messages"]
+```text
+Uporabnik (brskalnik)
+   |
+   v
+Next.js Frontend (App Router)  <--------------------------------------+
+   |                                                                  |
+   |  strani: customer/provider/auth                                  |
+   v                                                                  |
+Data layer (src/lib/*Data.ts)                                         |
+   |                                                                  |
+   +--> Firebase Firestore (users, providers, providerSlots, orders,   |
+   |    reviews, notifications, favorites, alerts, orders/{id}/messages)
+   |
+   +--> Next.js API routes (server):
+         - /api/search/ai  ----------> xAI Grok API
+         - /api/checkout/* ----------> Stripe Checkout (test mode)
+         - /api/email/*    ----------> Brevo SMTP
 ```
 
 ### Glavne komponente (iz projekta)
