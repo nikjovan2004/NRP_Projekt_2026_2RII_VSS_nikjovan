@@ -26,28 +26,30 @@ V grobem tok izgleda takole:
 
 ### Arhitekturni diagram (high‑level)
 
+### Arhitekturni diagram (high‑level)
+
 ```mermaid
 graph LR
   U[Uporabnik (brskalnik)] --> FE[Next.js Frontend (App Router)]
 
-  subgraph NEXT[Next.js aplikacija]
+  subgraph NEXT [Next.js aplikacija]
     FE --> PAGES[Strani (customer / provider / auth)]
     FE --> API[API routes]
     API --> AIAPI[/api/search/ai/]
-    API --> STRIPEAPI[/api/checkout/session<br/>/api/checkout/success/]
+    API --> STRIPEAPI[/api/checkout/session, /api/checkout/success/]
     API --> EMAILAPI[/api/email/order-created/]
   end
 
-  PAGES <--> DL[Data layer<br/>(src/lib/*Data.ts)]
+  PAGES <--> DL[Data layer (lib Data moduli)]
   DL <--> FS[(Firebase Firestore)]
   FE <--> FS
 
   AIAPI --> XAI[xAI Grok API]
-  STRIPEAPI --> STRIPE[Stripe Checkout<br/>(test mode)]
+  STRIPEAPI --> STRIPE[Stripe Checkout (test mode)]
   EMAILAPI --> BREVO[Brevo SMTP]
 
-  FS --- COLS[collections:<br/>users, providers, providerSlots,<br/>orders, reviews, notifications,<br/>favorites, alerts,<br/>orders/{id}/messages]
-```
+  FS --- COLS[collections: users, providers, providerSlots, orders, reviews, notifications, favorites, alerts, orders/{id}/messages]
+
 
 ### Glavne komponente (iz projekta)
 
